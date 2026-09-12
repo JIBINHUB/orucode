@@ -1,0 +1,39 @@
+{
+  "name": "oru-ui-library",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Interactive UI/UX code library and animation showcase with live previews.",
+  "scripts": {
+    "runtime": "node scripts/build-runtime.mjs",
+    "predev": "npm run runtime",
+    "dev": "next dev -p 5188",
+    "prebuild": "npm run runtime",
+    "build": "next build",
+    "start": "next start -p 5188",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@babel/standalone": "^7.28.0",
+    "@codemirror/lang-css": "^6.3.1",
+    "@codemirror/lang-html": "^6.4.9",
+    "@codemirror/lang-javascript": "^6.2.3",
+    "@tailwindcss/browser": "^4.3.3",
+    "@uiw/codemirror-theme-vscode": "^4.23.12",
+    "@uiw/react-codemirror": "^4.23.12",
+    "animejs": "3.2.2",
+    "framer-motion": "^13.2.0",
+    "fuse.js": "^7.1.0",
+    "gsap": "^3.13.0",
+    "lucide-react": "^1.45.0",
+    "next": "16.3.4",
+    "react": "^19.3.0",
+    "react-dom": "^19.3.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.0",
+    "@types/react": "^19.1.0",
+    "@types/react-dom": "^19.1.0",
+    "esbuild": "^0.28.2",
+    "typescript": "^5.8.0"
+  }
+}
