@@ -13,13 +13,13 @@ import {
   CloseIcon,
   FavGlyph,
   GridIcon,
-  HeartIcon,
   HomeIcon,
   MenuIcon,
   PlayGlyph,
   PlusIcon,
   PromptGlyph,
   SearchIcon,
+  UserGlyph,
 } from "./Icons";
 import { ASSETS, CATEGORY_COUNTS, LIBRARY_COUNTS, PROMPTS } from "@/data";
 import { useStore } from "@/lib/store";
@@ -33,6 +33,7 @@ const LABELS: [RegExp, string, string][] = [
   [/^\/playground/, "Live", "Playground"],
   [/^\/prompts/, "Website", "Prompts"],
   [/^\/favorites/, "Your", "Favorites"],
+  [/^\/developer/, "The", "Developer"],
 ];
 
 export default function AppShell({ children }: { children: ReactNode }) {
@@ -152,9 +153,8 @@ export default function AppShell({ children }: { children: ReactNode }) {
               <span className="kbd hide-sm">⌘K</span>
             </button>
             <span className="spacer" />
-            <Link href="/favorites" className="icon-btn" aria-label="Favorites">
-              <HeartIcon size={18} />
-              {favorites.size > 0 && <span className="dot" />}
+            <Link href="/developer" className="icon-btn" aria-label="Developer — Jibin Chacko">
+              <UserGlyph size={18} />
             </Link>
             <button className="icon-btn white" onClick={() => setPaletteOpen(true)} aria-label="Search">
               <SearchIcon size={18} />
@@ -177,8 +177,8 @@ export default function AppShell({ children }: { children: ReactNode }) {
         <Link href="/prompts" className={`dock-item ${pathname === "/prompts" ? "active" : ""}`} aria-label="Prompts">
           <PromptGlyph size={20} />
         </Link>
-        <Link href="/favorites" className={`dock-item ${pathname === "/favorites" ? "active" : ""}`} aria-label="Favorites">
-          <HeartIcon size={20} />
+        <Link href="/developer" className={`dock-item ${pathname === "/developer" ? "active" : ""}`} aria-label="Developer">
+          <UserGlyph size={20} />
         </Link>
       </nav>
 

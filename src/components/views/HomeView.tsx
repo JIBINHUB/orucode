@@ -4,7 +4,8 @@ import { AnimatePresence, motion } from "framer-motion";
 import Link from "next/link";
 import { useMemo, useState, type CSSProperties } from "react";
 import AssetCard from "../AssetCard";
-import { Arrow, ArrowTile, Asterisk, Blob, CircleBadge, LabelPill, LeafLogo, Ring, Smiley } from "../Brand";
+import { LeafLogo } from "../Brand";
+import KeralaStamp from "../KeralaStamp";
 import LivePreview from "../LivePreview";
 import { ArrowRight, BookmarkFilled, CATEGORY_GLYPHS, PromptGlyph, WandIcon } from "../Icons";
 import { ASSETS, CATEGORY_COUNTS, LIBRARY_COUNTS, PROMPTS } from "@/data";
@@ -261,32 +262,52 @@ export default function HomeView() {
         >
           <div className="leaf-stickers" aria-hidden="true">
             <span className="leaf-glow" />
-            <span className="lst" style={{ left: "5%", top: "15%", "--r": "-12deg" } as CSSProperties}>
-              <Asterisk size={46} />
+            <span className="lst" style={{ left: "2%", top: "9%", "--r": "-9deg" } as CSSProperties}>
+              <KeralaStamp
+                n="01"
+                title={["The", "Backwaters"]}
+                caption="Where the day slows to a drift."
+                motif="palm"
+                tint="#f3e6f7"
+                size={112}
+              />
             </span>
-            <span className="lst" style={{ left: "12%", top: "34%", "--r": "-7deg", animationDelay: "-1.2s" } as CSSProperties}>
-              <LabelPill variant="white">Design</LabelPill>
+            <span className="lst" style={{ left: "5%", top: "54%", "--r": "7deg", animationDelay: "-1.4s" } as CSSProperties}>
+              <KeralaStamp
+                n="02"
+                title={["Snake", "Boat"]}
+                caption="Eighty oars, one heartbeat."
+                motif="boat"
+                size={108}
+              />
             </span>
-            <span className="lst" style={{ left: "4%", top: "52%", animationDelay: "-2.4s" } as CSSProperties}>
-              <Blob size={74} color="rgba(255,255,255,.32)" />
+            <span className="lst" style={{ right: "3%", top: "7%", "--r": "8deg", animationDelay: "-2.6s" } as CSSProperties}>
+              <KeralaStamp
+                n="03"
+                title={["Temple", "Giant"]}
+                caption="Gold on grey, festival mornings."
+                motif="elephant"
+                size={112}
+              />
             </span>
-            <span className="lst" style={{ left: "9%", top: "76%", "--r": "-10deg", animationDelay: "-3.1s" } as CSSProperties}>
-              <Smiley size={48} />
+            <span className="lst" style={{ right: "2%", top: "52%", "--r": "-6deg", animationDelay: "-3.5s" } as CSSProperties}>
+              <KeralaStamp
+                n="04"
+                title={["Festival", "Shade"]}
+                caption="A hundred parasols in the sun."
+                motif="umbrella"
+                tint="#eaf0fb"
+                size={106}
+              />
             </span>
-            <span className="lst" style={{ right: "5%", top: "11%", animationDelay: "-0.6s" } as CSSProperties}>
-              <CircleBadge text="LEAF CREATIONISM • WEB • APP • BRAND • " size={96} />
-            </span>
-            <span className="lst" style={{ right: "17%", top: "30%", "--r": "8deg", animationDelay: "-1.8s" } as CSSProperties}>
-              <Arrow size={44} />
-            </span>
-            <span className="lst" style={{ right: "6%", top: "48%", "--r": "11deg", animationDelay: "-2.9s" } as CSSProperties}>
-              <ArrowTile size={62} />
-            </span>
-            <span className="lst" style={{ right: "10%", top: "74%", "--r": "13deg", animationDelay: "-3.7s" } as CSSProperties}>
-              <LabelPill>Build</LabelPill>
-            </span>
-            <span className="lst" style={{ left: "22%", top: "8%", "--r": "6deg", animationDelay: "-4.3s" } as CSSProperties}>
-              <Ring size={82} color="rgba(255,255,255,.3)" />
+            <span className="lst" style={{ left: "17%", top: "80%", "--r": "-12deg", animationDelay: "-4.4s" } as CSSProperties}>
+              <KeralaStamp
+                n="05"
+                title={["Stage", "Crown"]}
+                caption="Stories told in colour."
+                motif="crown"
+                size={100}
+              />
             </span>
           </div>
 

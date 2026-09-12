@@ -57,6 +57,13 @@ export const KeyboardIcon = make(<><rect x="3" y="6" width="18" height="12" rx="
 export const TrashIcon = make(<path d="M5 7h14M10 7V5h4v2M7 7l1 13h8l1-13" />);
 export const BookmarkFilled = make(<path d="M7 3h10a2 2 0 0 1 2 2v16l-7-4.5L5 21V5a2 2 0 0 1 2-2z" />, true);
 export const BoltIcon = make(<path d="M13 3 5 13.5h6L10 21l8-10.5h-6z" />);
+export const SendIcon = make(<path d="M21 3 2.8 10.2l7.7 2.9 2.9 7.7zM21 3 10.5 13.1" />);
+export const UserGlyph = make(
+  <>
+    <circle cx="12" cy="8.5" r="4" />
+    <path d="M4.8 20a7.2 7.2 0 0 1 14.4 0" />
+  </>,
+);
 
 /* Filled "3D" glyphs for category tiles */
 export const LoaderGlyph = make(<><path d="M12 2.5a9.5 9.5 0 1 0 9.5 9.5h-3A6.5 6.5 0 1 1 12 5.5z" /><circle cx="12" cy="12" r="2.6" /></>, true);

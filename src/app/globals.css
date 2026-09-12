@@ -1426,6 +1426,189 @@ textarea {
   color: var(--muted);
 }
 
+/* ---------- Developer profile ---------- */
+
+.dev-wrap {
+  padding: 8px 0 40px;
+}
+.dev-card {
+  position: relative;
+  width: min(760px, 100%);
+  margin: 0 auto;
+  padding: 22px 22px 26px;
+  border-radius: 44px;
+  text-align: center;
+  overflow: hidden;
+  background: linear-gradient(180deg, #f3d5c2 0%, #f7e3d6 42%, #fbf3ed 100%);
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.75), 0 44px 74px -48px rgba(120, 62, 30, 0.55);
+}
+.dev-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.dev-top-right {
+  display: flex;
+  gap: 10px;
+}
+.dev-round {
+  width: 46px;
+  height: 46px;
+  border-radius: 50%;
+  display: grid;
+  place-items: center;
+  flex: none;
+  color: #1a1512;
+  background: rgba(255, 255, 255, 0.62);
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.9), 0 8px 16px -10px rgba(90, 50, 25, 0.55);
+  transition: transform 0.25s cubic-bezier(0.2, 0.8, 0.2, 1), background 0.25s;
+}
+.dev-round:hover {
+  transform: translateY(-2px);
+  background: #fff;
+}
+.dev-avatar-wrap {
+  position: relative;
+  display: inline-block;
+  width: 122px;
+  height: 122px;
+  margin-top: 12px;
+}
+.dev-monogram {
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+  border-radius: 50%;
+  display: grid;
+  place-items: center;
+  font-family: var(--font-display);
+  font-size: 40px;
+  font-weight: 600;
+  letter-spacing: -0.02em;
+  color: #fff;
+  background: linear-gradient(150deg, #ff8a3d, #ff3131);
+}
+.dev-avatar {
+  position: relative;
+  z-index: 1;
+  display: block;
+  width: 122px;
+  height: 122px;
+  border-radius: 50%;
+  object-fit: cover;
+  background: transparent;
+  box-shadow: 0 20px 32px -20px rgba(90, 50, 25, 0.8);
+}
+.dev-dot {
+  position: absolute;
+  z-index: 2;
+  right: 5px;
+  bottom: 9px;
+  width: 22px;
+  height: 22px;
+  border-radius: 50%;
+  background: #3ecf6d;
+  border: 4px solid #f7e3d6;
+}
+.dev-name {
+  margin: 15px 0 3px;
+  font-size: clamp(26px, 3.4vw, 38px);
+  font-weight: 600;
+  letter-spacing: -0.03em;
+  color: #141210;
+}
+.dev-sub {
+  margin: 0;
+  font-size: 15px;
+  color: #8d7768;
+}
+.dev-actions {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: clamp(10px, 2.2vw, 18px);
+  margin-top: 26px;
+}
+.dev-action {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 9px;
+}
+.dev-tile {
+  width: 86px;
+  height: 62px;
+  border-radius: 26px;
+  display: grid;
+  place-items: center;
+  color: #1a1512;
+  background: rgba(255, 255, 255, 0.62);
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.9), 0 12px 20px -14px rgba(90, 50, 25, 0.6);
+  transition: transform 0.3s cubic-bezier(0.2, 0.8, 0.2, 1), background 0.3s;
+}
+.dev-tile.sm {
+  width: 40px;
+  height: 40px;
+  border-radius: 14px;
+  flex: none;
+}
+.dev-action:hover .dev-tile {
+  transform: translateY(-4px) scale(1.04);
+  background: #fff;
+}
+.dev-action > span:last-child {
+  font-size: 13.5px;
+  font-weight: 500;
+  color: #3a2e27;
+}
+.dev-bio,
+.dev-row {
+  background: rgba(255, 255, 255, 0.72);
+  text-align: left;
+}
+.dev-bio {
+  margin-top: 26px;
+  padding: 18px 22px;
+  border-radius: 28px;
+}
+.dev-bio-k {
+  margin: 0 0 5px;
+  font-size: 12.5px;
+  color: #9b8577;
+}
+.dev-bio-v {
+  margin: 0;
+  font-size: 16px;
+  line-height: 1.55;
+  color: #1c1714;
+}
+.dev-rows {
+  display: grid;
+  gap: 10px;
+  margin-top: 12px;
+}
+.dev-row {
+  display: flex;
+  align-items: center;
+  gap: 13px;
+  padding: 12px 16px;
+  border-radius: 24px;
+  font-size: 15px;
+  color: #1c1714;
+  transition: transform 0.25s cubic-bezier(0.2, 0.8, 0.2, 1), background 0.25s;
+  overflow-wrap: anywhere;
+}
+.dev-row:hover {
+  transform: translateY(-2px);
+  background: #fff;
+}
+.dev-row b {
+  display: block;
+  font-size: 12.5px;
+  font-weight: 500;
+  color: #9b8577;
+}
+
 /* ---------- Home: Leaf Creationism CTA ---------- */
 
 .leaf-cta {
@@ -1437,8 +1620,8 @@ textarea {
   border-radius: 48px;
   text-align: center;
   color: #fff;
-  background: radial-gradient(85% 120% at 50% -10%, #202024 0%, #0b0b0d 62%);
-  box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.09), 0 60px 100px -60px rgba(0, 0, 0, 0.9);
+  background: radial-gradient(85% 120% at 50% -10%, #27409a 0%, #080e28 62%);
+  box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.11), 0 60px 100px -60px rgba(6, 12, 40, 0.95);
   transition: transform 0.45s cubic-bezier(0.2, 0.8, 0.2, 1), box-shadow 0.45s;
 }
 /* scattered sticker board */
@@ -1456,7 +1639,7 @@ textarea {
   left: 50%;
   top: 40%;
   translate: -50% -50%;
-  background: radial-gradient(circle, rgba(255, 79, 41, 0.28), transparent 68%);
+  background: radial-gradient(circle, rgba(74, 125, 255, 0.34), transparent 68%);
   filter: blur(30px);
 }
 .lst {
@@ -1491,7 +1674,7 @@ textarea {
    percentages, so the lowest pair closes in on the button — drop them */
 @media (min-width: 761px) and (max-width: 1080px) {
   .leaf-stickers .lst:nth-child(5),
-  .leaf-stickers .lst:nth-child(9) {
+  .leaf-stickers .lst:nth-child(6) {
     display: none;
   }
 }
@@ -2822,9 +3005,9 @@ textarea {
   .lst {
     scale: 0.7;
   }
-  /* only the top-left asterisk clears the text column at this width — the rest
-     collided with the button or clipped at the card edge */
-  .leaf-stickers .lst:not(:nth-child(2)) {
+  /* a stamp is far too big to sit beside the text on a phone — it landed on
+     the headline, so the card keeps just its glow at this width */
+  .leaf-stickers .lst {
     display: none;
   }
 
