@@ -4,6 +4,7 @@ import { AnimatePresence, motion } from "framer-motion";
 import Link from "next/link";
 import { useMemo, useState } from "react";
 import AssetCard from "../AssetCard";
+import CommunityCard from "../CommunityCard";
 import { LeafLogo } from "../Brand";
 import LeafStickers from "../LeafStickers";
 import LivePreview from "../LivePreview";
@@ -270,6 +271,10 @@ export default function HomeView() {
             </Link>
           ))}
         </div>
+      </section>
+
+      <section className="section" id="community">
+        <CommunityCard />
       </section>
 
       <section className="section" id="faq">

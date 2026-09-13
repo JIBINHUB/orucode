@@ -16,6 +16,7 @@ export const OWNER = {
   telegram: "https://t.me/jibinchacko",
 };
 export const STUDIO = { name: "Leaf Creationism", url: "https://leafcreationism.in" };
+export const COMMUNITY = { name: "ORU CODE Telegram community", url: "https://t.me/+LmHxl5xhgTRhMGRl" };
 
 export const IDS = {
   website: `${SITE_URL}/#website`,
@@ -260,6 +261,10 @@ export const FAQS: { q: string; a: string }[] = [
   {
     q: "Can I get a free website design for my business?",
     a: "Yes. ORU CODE has free website design pages for restaurants, resorts and homestays, Ayurveda centres, clinics, schools, real estate, salons, gyms, online stores and many more businesses — each with recommended free section designs, copy-ready code and an AI prompt to build the whole site. If you’d rather have it built for you, Leaf Creationism builds websites for businesses in Kerala and across India.",
+  },
+  {
+    q: "Is there an ORU CODE community?",
+    a: "Yes. The ORU CODE Telegram community is free to join — it’s where new designs, animation drops and free website prompts are shared first, and where you can share what you’re building. Use the “Join on Telegram” button on the ORU CODE home page.",
   },
   {
     q: "Who made ORU CODE?",

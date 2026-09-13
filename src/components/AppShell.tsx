@@ -5,6 +5,7 @@ import Link from "next/link";
 import { usePathname, useSearchParams } from "next/navigation";
 import { Suspense, useEffect, useState, type ReactNode } from "react";
 import CommandPalette from "./CommandPalette";
+import { TelegramMark } from "./CommunityCard";
 import IntroLoader from "./IntroLoader";
 import { LeafTag, OruLogo } from "./Brand";
 import {
@@ -22,6 +23,7 @@ import {
   UserGlyph,
 } from "./Icons";
 import { ASSETS, CATEGORY_COUNTS, LIBRARY_COUNTS, PROMPTS } from "@/data";
+import { COMMUNITY } from "@/lib/seo";
 import { useStore } from "@/lib/store";
 import { getReactVariant } from "@/lib/variants";
 import { CATEGORIES, LIBRARIES } from "@/lib/taxonomy";
@@ -158,6 +160,13 @@ export default function AppShell({ children }: { children: ReactNode }) {
               </div>
             </nav>
             <div className="side-cta">
+              <a href={COMMUNITY.url} target="_blank" rel="noreferrer" className="side-tg">
+                <TelegramMark size={28} />
+                <span>
+                  Join the community
+                  <small>ORU CODE on Telegram</small>
+                </span>
+              </a>
               <Link href="/playground" className="btn btn-primary">
                 Open Playground
               </Link>

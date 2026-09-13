@@ -1,6 +1,7 @@
 import { ASSETS } from "@/data";
 import {
   COLLECTIONS,
+  COMMUNITY,
   OWNER,
   SITE_DESCRIPTION,
   SITE_NAME,
@@ -54,6 +55,7 @@ export function GET() {
     ...ASSETS.map((a) => `- [${a.title}](${absoluteUrl(`/asset/${a.id}`)}): ${CATEGORY_MAP[a.category].label}. ${a.description}`),
     "",
     "## Contact",
+    `- Community: [${COMMUNITY.name}](${COMMUNITY.url}) — new designs, animation drops and free website prompts`,
     `- Email: ${OWNER.email}`,
     `- Website and app projects in Kerala and India: ${STUDIO.url}`,
     "",
