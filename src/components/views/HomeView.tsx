@@ -7,8 +7,10 @@ import AssetCard from "../AssetCard";
 import { LeafLogo } from "../Brand";
 import LeafStickers from "../LeafStickers";
 import LivePreview from "../LivePreview";
-import { ArrowRight, BookmarkFilled, CATEGORY_GLYPHS, PromptGlyph, WandIcon } from "../Icons";
+import { ArrowRight, BookmarkFilled, CATEGORY_GLYPHS, PlusIcon, PromptGlyph, WandIcon } from "../Icons";
 import { ASSETS, CATEGORY_COUNTS, LIBRARY_COUNTS, PROMPTS } from "@/data";
+import { FAQS, designsPath } from "@/lib/seo";
+import { SERVICES, servicePath } from "@/lib/services";
 import { useStore } from "@/lib/store";
 import { CATEGORIES, CATEGORY_MAP, LIBRARIES } from "@/lib/taxonomy";
 import type { CategoryId } from "@/lib/types";
@@ -141,7 +143,11 @@ export default function HomeView() {
           {CATEGORIES.map((c) => {
             const Glyph = CATEGORY_GLYPHS[c.id];
             return (
-              <Link key={c.id} href={`/library?cat=${c.id}`} className="cat-tile">
+              <Link
+                key={c.id}
+                href={CATEGORY_COUNTS[c.id] ? designsPath(c.id) : `/library?cat=${c.id}`}
+                className="cat-tile"
+              >
                 <span className="icon-tile">
                   <Glyph size={24} className="cat-icon" />
                 </span>
@@ -250,6 +256,38 @@ export default function HomeView() {
           </div>
         </section>
       )}
+
+      <section className="section">
+        <IdeaHead
+          step={6}
+          title="Free Designs for Your Business"
+          sub="Pick your business — get free section designs, code and a ready-made AI prompt for the whole site."
+        />
+        <div className="seo-links svc-home">
+          {SERVICES.map((s) => (
+            <Link key={s.slug} href={servicePath(s.slug)} className="chip">
+              {s.icon} {s.name}
+            </Link>
+          ))}
+        </div>
+      </section>
+
+      <section className="section" id="faq">
+        <IdeaHead step={7} title="Questions, Answered" sub="The things people usually ask about ORU CODE." />
+        <div className="faq-list">
+          {FAQS.map((f, i) => (
+            <details key={f.q} className="faq-item" open={i === 0}>
+              <summary>
+                <h3>{f.q}</h3>
+                <span className="faq-icon" aria-hidden="true">
+                  <PlusIcon size={16} />
+                </span>
+              </summary>
+              <p>{f.a}</p>
+            </details>
+          ))}
+        </div>
+      </section>
 
       <section className="section">
         <motion.div

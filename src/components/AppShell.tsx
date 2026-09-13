@@ -3,7 +3,7 @@
 import { AnimatePresence, motion } from "framer-motion";
 import Link from "next/link";
 import { usePathname, useSearchParams } from "next/navigation";
-import { useEffect, useState, type ReactNode } from "react";
+import { Suspense, useEffect, useState, type ReactNode } from "react";
 import CommandPalette from "./CommandPalette";
 import IntroLoader from "./IntroLoader";
 import { LeafTag, OruLogo } from "./Brand";
@@ -34,15 +34,33 @@ const LABELS: [RegExp, string, string][] = [
   [/^\/prompts/, "Website", "Prompts"],
   [/^\/favorites/, "Your", "Favorites"],
   [/^\/developer/, "The", "Developer"],
+  [/^\/designs/, "Browse", "Designs"],
+  [/^\/code/, "Browse", "Code"],
+  [/^\/free-website-design/, "Free", "Website Designs"],
 ];
+
+type NavQuery = { cat: string | null; lib: string | null };
+
+/**
+ * Reads the query string inside its own Suspense boundary. useSearchParams higher up
+ * would make the whole shell — and every page in it — render only in the browser,
+ * leaving search engines and AI crawlers an empty page.
+ */
+function QueryWatcher({ onChange }: { onChange: (q: NavQuery) => void }) {
+  const params = useSearchParams();
+  const cat = params.get("cat");
+  const lib = params.get("lib");
+  useEffect(() => onChange({ cat, lib }), [cat, lib, onChange]);
+  return null;
+}
 
 export default function AppShell({ children }: { children: ReactNode }) {
   const pathname = usePathname();
-  const params = useSearchParams();
+  const [query, setQuery] = useState<NavQuery>({ cat: null, lib: null });
   const { setPaletteOpen, favorites, toastMessage } = useStore();
   const [drawer, setDrawer] = useState(false);
 
-  useEffect(() => setDrawer(false), [pathname, params]);
+  useEffect(() => setDrawer(false), [pathname, query]);
 
   // Dev-only hook for checking every design's generated React code in the browser.
   useEffect(() => {
@@ -68,8 +86,8 @@ export default function AppShell({ children }: { children: ReactNode }) {
   }, [setPaletteOpen]);
 
   const onLibrary = pathname === "/library";
-  const qCat = params.get("cat");
-  const qLib = params.get("lib");
+  const qCat = query.cat;
+  const qLib = query.lib;
   const [, first, second] = LABELS.find(([re]) => re.test(pathname)) ?? LABELS[0];
 
   const item = (href: string, label: string, icon: ReactNode, active: boolean, count?: number) => (
@@ -87,6 +105,9 @@ export default function AppShell({ children }: { children: ReactNode }) {
   return (
     <>
       <IntroLoader />
+      <Suspense fallback={null}>
+        <QueryWatcher onChange={setQuery} />
+      </Suspense>
       <div className="shell">
         <aside className={`sidebar ${drawer ? "open" : ""}`}>
           <div className="side-panel panel">
@@ -127,6 +148,12 @@ export default function AppShell({ children }: { children: ReactNode }) {
               <div className="nav-group">
                 <div className="nav-label">Websites</div>
                 {catItem("pages", "Full pages")}
+                {item(
+                  "/free-website-design",
+                  "Free business sites",
+                  <GridIcon size={17} />,
+                  pathname.startsWith("/free-website-design"),
+                )}
                 {item("/prompts", "Website prompts", <PromptGlyph size={17} />, pathname === "/prompts", PROMPTS.length)}
               </div>
             </nav>
