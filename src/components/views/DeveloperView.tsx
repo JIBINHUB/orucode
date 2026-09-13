@@ -11,7 +11,7 @@ const TELEGRAM = "jibinchacko";
  * "/photos/jibin.jpg" — it then replaces the monogram. Empty keeps the
  * monogram and avoids a broken image request on every load.
  */
-const PHOTO = "";
+const PHOTO = "/photos/jibin.jpg";
 
 export default function DeveloperView() {
   const [photoOk, setPhotoOk] = useState(true);
