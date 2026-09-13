@@ -1,5 +1,6 @@
 import { htmlToReact } from "./htmlToJsx";
 import { buildHtmlPreview, buildReactPreview } from "./preview";
+import { nativeTone } from "./previewTone";
 import type { Asset, FrameworkId, ReactVariant } from "./types";
 
 const cache = new Map<string, ReactVariant>();
@@ -21,9 +22,10 @@ export const defaultFramework = (asset: Asset): FrameworkId => (asset.html ? "ht
 
 /** Builds the sandboxed preview document for an asset in the requested framework. */
 export async function buildAssetDocument(asset: Asset, framework: FrameworkId): Promise<string> {
+  const ground = nativeTone(asset) ?? "auto";
   if (framework === "react" || !asset.html) {
     const rv = getReactVariant(asset);
-    if (rv) return buildReactPreview(rv, asset.title, asset.tailwind);
+    if (rv) return buildReactPreview(rv, asset.title, asset.tailwind, ground);
   }
-  return asset.html ? buildHtmlPreview(asset.html, asset.title) : "";
+  return asset.html ? buildHtmlPreview(asset.html, asset.title, ground) : "";
 }

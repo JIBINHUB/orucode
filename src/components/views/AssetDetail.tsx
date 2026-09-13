@@ -96,8 +96,15 @@ export default function AssetDetail({ id }: { id: string }) {
     }
   };
 
-  const preview = (width?: number) => (
-    <LivePreview asset={asset} framework={framework} title={asset.title} reloadKey={reload} virtualWidth={width} />
+  const preview = (width?: number, landscape?: boolean) => (
+    <LivePreview
+      asset={asset}
+      framework={framework}
+      title={asset.title}
+      reloadKey={reload}
+      virtualWidth={width}
+      landscape={landscape}
+    />
   );
 
   return (
@@ -182,7 +189,11 @@ export default function AssetDetail({ id }: { id: string }) {
           </div>
         </div>
         <div className={`stage-canvas ${device === "desktop" ? "desktop" : ""}`}>
-          {device === "desktop" && <BrowserFrame url={`oru.ui/${asset.id}`}>{preview()}</BrowserFrame>}
+          {device === "desktop" && (
+            <BrowserFrame url={`oru.code/${asset.title.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "")}`}>
+              {preview(1100, true)}
+            </BrowserFrame>
+          )}
           {device === "tablet" && (
             <div className="tablet-wrap">
               <TabletFrame>{preview(768)}</TabletFrame>

@@ -8,7 +8,7 @@ export const VENGEANCE_ASSETS: Asset[] = [
   {
     "id": "vg-animated-button",
     "title": "Animated Button",
-    "description": "Animated CTA button with shine effect. React + Tailwind component by @Ashutoshx7 on VengeanceUI.",
+    "description": "Animated CTA button with shine effect.",
     "category": "buttons",
     "libraries": [
       "framer-motion"
@@ -19,7 +19,6 @@ export const VENGEANCE_ASSETS: Asset[] = [
       "cta",
       "button",
       "shine",
-      "vengeanceui",
       "tailwind"
     ],
     "complexity": "basic",
@@ -40,7 +39,7 @@ export const VENGEANCE_ASSETS: Asset[] = [
   {
     "id": "vg-candy-button",
     "title": "Candy Button",
-    "description": "Glassy candy-like button with top highlight. React + Tailwind component by @Ashutoshx7 on VengeanceUI.",
+    "description": "Glassy candy-like button with top highlight.",
     "category": "buttons",
     "libraries": [
       "css"
@@ -51,7 +50,6 @@ export const VENGEANCE_ASSETS: Asset[] = [
       "candy-like",
       "button",
       "top",
-      "vengeanceui",
       "tailwind"
     ],
     "complexity": "basic",
@@ -72,7 +70,7 @@ export const VENGEANCE_ASSETS: Asset[] = [
   {
     "id": "vg-pop-button",
     "title": "Pop Button",
-    "description": "Interactive 3D pushable pop button. React + Tailwind component by @Ashutoshx7 on VengeanceUI.",
+    "description": "Interactive 3D pushable pop button.",
     "category": "buttons",
     "libraries": [
       "css"
@@ -83,7 +81,6 @@ export const VENGEANCE_ASSETS: Asset[] = [
       "pushable",
       "pop",
       "button",
-      "vengeanceui",
       "tailwind"
     ],
     "complexity": "basic",
@@ -104,7 +101,7 @@ export const VENGEANCE_ASSETS: Asset[] = [
   {
     "id": "vg-radial-glow-button",
     "title": "Radial Glow Button",
-    "description": "Button with animated radial gradient hover. React + Tailwind component by @Ashutoshx7 on VengeanceUI.",
+    "description": "Button with animated radial gradient hover.",
     "category": "buttons",
     "libraries": [
       "css"
@@ -115,7 +112,6 @@ export const VENGEANCE_ASSETS: Asset[] = [
       "animated",
       "radial",
       "gradient",
-      "vengeanceui",
       "tailwind"
     ],
     "complexity": "intermediate",
@@ -136,7 +132,7 @@ export const VENGEANCE_ASSETS: Asset[] = [
   {
     "id": "vg-creepy-button",
     "title": "Creepy Button",
-    "description": "Button with tracking eyes. React + Tailwind component by @Ashutoshx7 on VengeanceUI.",
+    "description": "Button with tracking eyes.",
     "category": "buttons",
     "libraries": [
       "framer-motion"
@@ -146,7 +142,6 @@ export const VENGEANCE_ASSETS: Asset[] = [
       "button",
       "tracking",
       "eyes",
-      "vengeanceui",
       "tailwind"
     ],
     "complexity": "intermediate",
@@ -167,7 +162,7 @@ export const VENGEANCE_ASSETS: Asset[] = [
   {
     "id": "vg-corner-button",
     "title": "Corner Button",
-    "description": "Animated corner dots & lines button. React + Tailwind component by @Ashutoshx7 on VengeanceUI.",
+    "description": "Animated corner dots & lines button.",
     "category": "buttons",
     "libraries": [
       "css"
@@ -178,7 +173,6 @@ export const VENGEANCE_ASSETS: Asset[] = [
       "corner",
       "dots",
       "lines",
-      "vengeanceui",
       "tailwind"
     ],
     "complexity": "advanced",
@@ -199,7 +193,7 @@ export const VENGEANCE_ASSETS: Asset[] = [
   {
     "id": "vg-generate-button",
     "title": "Generate Button",
-    "description": "An interactive, animated button for AI generation tasks.. React + Tailwind component by @Ashutoshx7 on VengeanceUI.",
+    "description": "An interactive, animated button for AI generation tasks..",
     "category": "buttons",
     "libraries": [
       "css"
@@ -210,7 +204,6 @@ export const VENGEANCE_ASSETS: Asset[] = [
       "animated",
       "button",
       "generation",
-      "vengeanceui",
       "tailwind"
     ],
     "complexity": "advanced",
@@ -231,7 +224,7 @@ export const VENGEANCE_ASSETS: Asset[] = [
   {
     "id": "vg-animated-number",
     "title": "Animated Number",
-    "description": "Smooth numeric transitions. React + Tailwind component by @Ashutoshx7 on VengeanceUI.",
+    "description": "Smooth numeric transitions.",
     "category": "text",
     "libraries": [
       "framer-motion"
@@ -241,7 +234,6 @@ export const VENGEANCE_ASSETS: Asset[] = [
       "smooth",
       "numeric",
       "transitions",
-      "vengeanceui",
       "tailwind"
     ],
     "complexity": "intermediate",
@@ -262,7 +254,7 @@ export const VENGEANCE_ASSETS: Asset[] = [
   {
     "id": "vg-stats-counter",
     "title": "Stats Counter",
-    "description": "Count-up number animation triggered on scroll. React + Tailwind component by @Ashutoshx7 on VengeanceUI.",
+    "description": "Count-up number animation triggered on scroll.",
     "category": "text",
     "libraries": [
       "framer-motion"
@@ -273,7 +265,6 @@ export const VENGEANCE_ASSETS: Asset[] = [
       "number",
       "animation",
       "triggered",
-      "vengeanceui",
       "tailwind"
     ],
     "complexity": "basic",
@@ -294,7 +285,7 @@ export const VENGEANCE_ASSETS: Asset[] = [
   {
     "id": "vg-flip-text",
     "title": "Flip Text",
-    "description": "Character flip text animation. React + Tailwind component by @Ashutoshx7 on VengeanceUI.",
+    "description": "Character flip text animation.",
     "category": "text",
     "libraries": [
       "css"
@@ -305,7 +296,6 @@ export const VENGEANCE_ASSETS: Asset[] = [
       "flip",
       "text",
       "animation",
-      "vengeanceui",
       "tailwind"
     ],
     "complexity": "basic",
@@ -326,7 +316,7 @@ export const VENGEANCE_ASSETS: Asset[] = [
   {
     "id": "vg-flip-fade-text",
     "title": "Flip Fade Text",
-    "description": "Word flip and fade cycle. React + Tailwind component by @Ashutoshx7 on VengeanceUI.",
+    "description": "Word flip and fade cycle.",
     "category": "text",
     "libraries": [
       "framer-motion"
@@ -337,7 +327,6 @@ export const VENGEANCE_ASSETS: Asset[] = [
       "flip",
       "fade",
       "cycle",
-      "vengeanceui",
       "tailwind"
     ],
     "complexity": "intermediate",
@@ -358,7 +347,7 @@ export const VENGEANCE_ASSETS: Asset[] = [
   {
     "id": "vg-morph-text",
     "title": "Morph Text",
-    "description": "Blur-morph word rotation effect. React + Tailwind component by @Ashutoshx7 on VengeanceUI.",
+    "description": "Blur-morph word rotation effect.",
     "category": "text",
     "libraries": [
       "css"
@@ -369,7 +358,6 @@ export const VENGEANCE_ASSETS: Asset[] = [
       "word",
       "rotation",
       "effect",
-      "vengeanceui",
       "tailwind"
     ],
     "complexity": "intermediate",
@@ -377,7 +365,7 @@ export const VENGEANCE_ASSETS: Asset[] = [
     "added": "2026-09-11",
     "tailwind": true,
     "react": {
-      "code": "// Morph Text — via VengeanceUI (morph-text) by Ashutoshx7, MIT License.\n// https://www.vengenceui.com/components/morph-text\n\n// Simplified stand-in for the original `cn()` (clsx + tailwind-merge): joins\n// class names without tailwind-merge's conflicting-utility dedupe.\nfunction cn(...inputs) {\n  return inputs.flat(Infinity).filter(Boolean).join(\" \");\n}\nimport React, { useId } from \"react\";\n\n// ─── Types ─────────────────────────────────────────────────────────────────\n\n// ─── Component ──────────────────────────────────────────────────────────────\n\nexport function MorphText({\n  words = [\"CREATE\", \"DESIGN\", \"DEVELOP\"],\n  interval = 3000,\n  subtext,\n  fontSize = \"clamp(3rem, 15vw, 10rem)\",\n  fontFamily = '\"Space Grotesk\", sans-serif',\n  className,\n  textClassName,\n  subtextClassName\n}) {\n  // Unique ID so multiple instances don't share filter IDs\n  const uid = useId().replace(/:/g, \"\");\n  const filterId = `morph-threshold-${uid}`;\n  const totalDuration = interval / 1000 * words.length; // seconds\n  const wordDuration = interval / 1000;\n\n  // Build per-word keyframe + delay styles\n  const wordStyles = words.map((_, i) => ({\n    animationDelay: `${i * wordDuration}s`,\n    animationDuration: `${totalDuration}s`\n  }));\n  return <div className={cn(\"morph-text-root relative flex flex-col items-center\", className)}>\n      {/* ── Threshold SVG filter (hidden) ─────────────────────────── */}\n      <svg aria-hidden=\"true\" focusable=\"false\" style={{\n      position: \"absolute\",\n      width: 0,\n      height: 0,\n      pointerEvents: \"none\"\n    }}>\n        <defs>\n          <filter id={filterId}>\n            <feColorMatrix in=\"SourceGraphic\" type=\"matrix\" values=\"1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 25 -9\" result=\"goo\" />\n            <feComposite in=\"SourceGraphic\" in2=\"goo\" operator=\"atop\" />\n          </filter>\n        </defs>\n      </svg>\n\n      {/* ── Morphing word container ────────────────────────────────── */}\n      <div className={cn(\"morph-text-container relative select-none\", textClassName)} style={{\n      fontSize,\n      fontWeight: 700,\n      filter: `url(#${filterId})`,\n      fontFamily\n    }}>\n        {/* word rotator */}\n        <div className=\"morph-word-rotator relative flex items-center justify-center\" style={{\n        height: \"1.2em\",\n        minWidth: \"14ch\"\n      }}>\n          {words.map((word, i) => <span key={`${word}-${i}`} className=\"morph-word absolute\" style={{\n          top: \"50%\",\n          left: \"50%\",\n          transform: \"translate(-50%, -50%)\",\n          opacity: 0,\n          whiteSpace: \"nowrap\",\n          animationName: \"morph-word-rotate\",\n          animationTimingFunction: \"ease-in-out\",\n          animationIterationCount: \"infinite\",\n          animationFillMode: \"both\",\n          ...wordStyles[i]\n        }}>\n              {word}\n            </span>)}\n        </div>\n      </div>\n\n      {/* ── Optional subtext ──────────────────────────────────────── */}\n      {subtext && <p className={cn(\"morph-subtext mt-8 uppercase tracking-[0.2em] text-[#888]\", subtextClassName)} style={{\n      fontSize: \"1.2rem\",\n      opacity: 0,\n      animation: \"morph-fade-up 1s ease-out 1s forwards\",\n      fontFamily\n    }}>\n          {subtext}\n        </p>}\n\n      {/* ── Scoped keyframes ──────────────────────────────────────── */}\n      <style>{`\n        @import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;500;700&display=swap');\n\n        @keyframes morph-word-rotate {\n          0% {\n            opacity: 0;\n            filter: blur(20px);\n            transform: translate(-50%, -50%) scale(0.8);\n          }\n          5% {\n            opacity: 0.5;\n            filter: blur(10px);\n          }\n          15%, 35% {\n            opacity: 1;\n            filter: blur(0px);\n            transform: translate(-50%, -50%) scale(1);\n          }\n          45% {\n            opacity: 0.5;\n            filter: blur(10px);\n          }\n          50%, 100% {\n            opacity: 0;\n            filter: blur(20px);\n            transform: translate(-50%, -50%) scale(1.2);\n          }\n        }\n\n        @keyframes morph-fade-up {\n          from { opacity: 0; transform: translateY(20px); }\n          to   { opacity: 1; transform: translateY(0); }\n        }\n      `}</style>\n    </div>;\n}\n\n\n// Default — cycles CREATE / DESIGN / DEVELOP\nexport default function Demo() {\n  return <MorphText subtext=\"The Art of Code\" />;\n}\n\n// Custom words and interval\nexport function CustomMorph() {\n  return <MorphText words={[\"INNOVATE\", \"BUILD\", \"SHIP\"]} interval={2500} subtext=\"Move fast. Break things.\" fontSize=\"clamp(2rem, 10vw, 8rem)\" />;\n}\n",
+      "code": "// Morph Text — via VengeanceUI (morph-text) by Ashutoshx7, MIT License.\n// https://www.vengenceui.com/components/morph-text\n\n// Simplified stand-in for the original `cn()` (clsx + tailwind-merge): joins\n// class names without tailwind-merge's conflicting-utility dedupe.\nfunction cn(...inputs) {\n  return inputs.flat(Infinity).filter(Boolean).join(\" \");\n}\nimport React, { useId } from \"react\";\n\n// ─── Types ─────────────────────────────────────────────────────────────────\n\n// ─── Component ──────────────────────────────────────────────────────────────\n\nexport function MorphText({\n  words = [\"CREATE\", \"DESIGN\", \"DEVELOP\"],\n  interval = 3000,\n  subtext,\n  fontSize = \"clamp(3rem, 15vw, 10rem)\",\n  fontFamily = '\"Space Grotesk\", sans-serif',\n  className,\n  textClassName,\n  subtextClassName\n}) {\n  // Unique ID so multiple instances don't share filter IDs\n  const uid = useId().replace(/:/g, \"\");\n  const filterId = `morph-threshold-${uid}`;\n  const totalDuration = interval / 1000 * words.length; // seconds\n  const wordDuration = interval / 1000;\n\n  // Build per-word keyframe + delay styles\n  const wordStyles = words.map((_, i) => ({\n    animationDelay: `${i * wordDuration}s`,\n    animationDuration: `${totalDuration}s`\n  }));\n  return <div className={cn(\"morph-text-root relative flex flex-col items-center\", className)}>\n      {/* ── Threshold SVG filter (hidden) ─────────────────────────── */}\n      <svg aria-hidden=\"true\" focusable=\"false\" style={{\n      position: \"absolute\",\n      width: 0,\n      height: 0,\n      pointerEvents: \"none\"\n    }}>\n        <defs>\n          <filter id={filterId}>\n            <feColorMatrix in=\"SourceGraphic\" type=\"matrix\" values=\"1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 25 -9\" result=\"goo\" />\n            <feComposite in=\"SourceGraphic\" in2=\"goo\" operator=\"atop\" />\n          </filter>\n        </defs>\n      </svg>\n\n      {/* ── Morphing word container ────────────────────────────────── */}\n      <div className={cn(\"morph-text-container relative select-none\", textClassName)} style={{\n      fontSize,\n      fontWeight: 700,\n      filter: `url(#${filterId})`,\n      fontFamily\n    }}>\n        {/* word rotator */}\n        <div className=\"morph-word-rotator relative flex items-center justify-center\" style={{\n        height: \"1.2em\",\n        minWidth: \"14ch\"\n      }}>\n          {words.map((word, i) => <span key={`${word}-${i}`} className=\"morph-word absolute\" style={{\n          top: \"50%\",\n          left: \"50%\",\n          transform: \"translate(-50%, -50%)\",\n          opacity: 0,\n          whiteSpace: \"nowrap\",\n          animationName: \"morph-word-rotate\",\n          animationTimingFunction: \"ease-in-out\",\n          animationIterationCount: \"infinite\",\n          animationFillMode: \"both\",\n          ...wordStyles[i]\n        }}>\n              {word}\n            </span>)}\n        </div>\n      </div>\n\n      {/* ── Optional subtext ──────────────────────────────────────── */}\n      {subtext && <p className={cn(\"morph-subtext mt-8 uppercase tracking-[0.2em] text-[#888]\", subtextClassName)} style={{\n      fontSize: \"1.2rem\",\n      opacity: 0,\n      animation: \"morph-fade-up 1s ease-out 1s forwards\",\n      fontFamily\n    }}>\n          {subtext}\n        </p>}\n\n      {/* ── Scoped keyframes ──────────────────────────────────────── */}\n      <style>{`\n        @import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;500;700&display=swap');\n\n        @keyframes morph-word-rotate {\n          0% {\n            opacity: 0;\n            filter: blur(20px);\n            transform: translate(-50%, -50%) scale(0.8);\n          }\n          5% {\n            opacity: 0.5;\n            filter: blur(10px);\n          }\n          15%, 35% {\n            opacity: 1;\n            filter: blur(0px);\n            transform: translate(-50%, -50%) scale(1);\n          }\n          45% {\n            opacity: 0.5;\n            filter: blur(10px);\n          }\n          50%, 100% {\n            opacity: 0;\n            filter: blur(20px);\n            transform: translate(-50%, -50%) scale(1.2);\n          }\n        }\n\n        @keyframes morph-fade-up {\n          from { opacity: 0; transform: translateY(20px); }\n          to   { opacity: 1; transform: translateY(0); }\n        }\n      `}</style>\n    </div>;\n}\n\n\n// Default — cycles CREATE / DESIGN / DEVELOP\nexport default function Demo() {\n  return <MorphText subtext=\"The Art of Code\" fontSize=\"clamp(2rem, 9vw, 7rem)\" />;\n}\n\n// Custom words and interval\nexport function CustomMorph() {\n  return <MorphText words={[\"INNOVATE\", \"BUILD\", \"SHIP\"]} interval={2500} subtext=\"Move fast. Break things.\" fontSize=\"clamp(2rem, 10vw, 8rem)\" />;\n}\n",
       "css": "body {\n  margin: 0;\n  min-height: 100vh;\n  display: grid;\n  place-items: center;\n  padding: 8%;\n  box-sizing: border-box;\n}"
     },
     "credit": {
@@ -390,7 +378,7 @@ export const VENGEANCE_ASSETS: Asset[] = [
   {
     "id": "vg-ascii-glitch-ripple",
     "title": "ASCII Glitch Ripple",
-    "description": "Dynamic character-scramble wave ripple hover effect. React + Tailwind component by @Ashutoshx7 on VengeanceUI.",
+    "description": "Dynamic character-scramble wave ripple hover effect.",
     "category": "text",
     "libraries": [
       "css"
@@ -401,7 +389,6 @@ export const VENGEANCE_ASSETS: Asset[] = [
       "character-scramble",
       "wave",
       "ripple",
-      "vengeanceui",
       "tailwind"
     ],
     "complexity": "intermediate",
@@ -422,7 +409,7 @@ export const VENGEANCE_ASSETS: Asset[] = [
   {
     "id": "vg-stagger-text",
     "title": "Stagger Text",
-    "description": "Letters or words stagger reveal animation. React + Tailwind component by @Ashutoshx7 on VengeanceUI.",
+    "description": "Letters or words stagger reveal animation.",
     "category": "text",
     "libraries": [
       "framer-motion"
@@ -433,7 +420,6 @@ export const VENGEANCE_ASSETS: Asset[] = [
       "words",
       "stagger",
       "reveal",
-      "vengeanceui",
       "tailwind"
     ],
     "complexity": "basic",
@@ -454,7 +440,7 @@ export const VENGEANCE_ASSETS: Asset[] = [
   {
     "id": "vg-interactive-book",
     "title": "Interactive Book",
-    "description": "3D page-flip style book. React + Tailwind component by @Ashutoshx7 on VengeanceUI.",
+    "description": "3D page-flip style book.",
     "category": "interactions",
     "libraries": [
       "framer-motion"
@@ -464,7 +450,6 @@ export const VENGEANCE_ASSETS: Asset[] = [
       "page-flip",
       "style",
       "book",
-      "vengeanceui",
       "tailwind"
     ],
     "complexity": "advanced",
@@ -485,7 +470,7 @@ export const VENGEANCE_ASSETS: Asset[] = [
   {
     "id": "vg-image-trail",
     "title": "Image Trail",
-    "description": "Cursor-following image trail effect. React + Tailwind component by @Ashutoshx7 on VengeanceUI.",
+    "description": "Cursor-following image trail effect.",
     "category": "interactions",
     "libraries": [
       "framer-motion"
@@ -496,7 +481,6 @@ export const VENGEANCE_ASSETS: Asset[] = [
       "image",
       "trail",
       "effect",
-      "vengeanceui",
       "tailwind"
     ],
     "complexity": "intermediate",
@@ -517,7 +501,7 @@ export const VENGEANCE_ASSETS: Asset[] = [
   {
     "id": "vg-perspective-carousel",
     "title": "Perspective Carousel",
-    "description": "Spring-driven 3D image carousel. React + Tailwind component by @Ashutoshx7 on VengeanceUI.",
+    "description": "Spring-driven 3D image carousel.",
     "category": "interactions",
     "libraries": [
       "framer-motion"
@@ -527,7 +511,6 @@ export const VENGEANCE_ASSETS: Asset[] = [
       "spring-driven",
       "image",
       "carousel",
-      "vengeanceui",
       "tailwind"
     ],
     "complexity": "intermediate",
@@ -548,7 +531,7 @@ export const VENGEANCE_ASSETS: Asset[] = [
   {
     "id": "vg-diagonal-carousel",
     "title": "Diagonal Carousel",
-    "description": "Spring-driven diagonal image carousel. React + Tailwind component by @Ashutoshx7 on VengeanceUI.",
+    "description": "Spring-driven diagonal image carousel.",
     "category": "interactions",
     "libraries": [
       "framer-motion"
@@ -559,7 +542,6 @@ export const VENGEANCE_ASSETS: Asset[] = [
       "diagonal",
       "image",
       "carousel",
-      "vengeanceui",
       "tailwind"
     ],
     "complexity": "intermediate",
@@ -580,7 +562,7 @@ export const VENGEANCE_ASSETS: Asset[] = [
   {
     "id": "vg-pixelated-image-trail",
     "title": "Pixelated Image Trail",
-    "description": "Cursor trail image reveal. React + Tailwind component by @Ashutoshx7 on VengeanceUI.",
+    "description": "Cursor trail image reveal.",
     "category": "interactions",
     "libraries": [
       "css"
@@ -591,7 +573,6 @@ export const VENGEANCE_ASSETS: Asset[] = [
       "trail",
       "image",
       "reveal",
-      "vengeanceui",
       "tailwind"
     ],
     "complexity": "intermediate",
@@ -612,7 +593,7 @@ export const VENGEANCE_ASSETS: Asset[] = [
   {
     "id": "vg-interactive-keyboard",
     "title": "Interactive Keyboard",
-    "description": "Keyboard UI that mirrors your real key presses. React + Tailwind component by @Ashutoshx7 on VengeanceUI.",
+    "description": "Keyboard UI that mirrors your real key presses.",
     "category": "interactions",
     "libraries": [
       "css"
@@ -623,7 +604,6 @@ export const VENGEANCE_ASSETS: Asset[] = [
       "that",
       "mirrors",
       "real",
-      "vengeanceui",
       "tailwind"
     ],
     "complexity": "advanced",
@@ -644,7 +624,7 @@ export const VENGEANCE_ASSETS: Asset[] = [
   {
     "id": "vg-typing-keyboard",
     "title": "Typing Keyboard",
-    "description": "3D isometric keyboard with auto-typing screen. React + Tailwind component by @Ashutoshx7 on VengeanceUI.",
+    "description": "3D isometric keyboard with auto-typing screen.",
     "category": "interactions",
     "libraries": [
       "css"
@@ -655,7 +635,6 @@ export const VENGEANCE_ASSETS: Asset[] = [
       "keyboard",
       "auto-typing",
       "screen",
-      "vengeanceui",
       "tailwind"
     ],
     "complexity": "advanced",
@@ -676,7 +655,7 @@ export const VENGEANCE_ASSETS: Asset[] = [
   {
     "id": "vg-music-player",
     "title": "Music Player",
-    "description": "Collapsible glass music player with equalizer and seekable progress. React + Tailwind component by @Ashutoshx7 on VengeanceUI.",
+    "description": "Collapsible glass music player with equalizer and seekable progress.",
     "category": "interactions",
     "libraries": [
       "css"
@@ -687,7 +666,6 @@ export const VENGEANCE_ASSETS: Asset[] = [
       "glass",
       "music",
       "player",
-      "vengeanceui",
       "tailwind"
     ],
     "complexity": "intermediate",
@@ -708,7 +686,7 @@ export const VENGEANCE_ASSETS: Asset[] = [
   {
     "id": "vg-verse-cards",
     "title": "Verse Cards",
-    "description": "Nav trigger that fans a deck of cards up with a GSAP reveal. React + Tailwind component by @Ashutoshx7 on VengeanceUI.",
+    "description": "Nav trigger that fans a deck of cards up with a GSAP reveal.",
     "category": "interactions",
     "libraries": [
       "gsap"
@@ -719,7 +697,6 @@ export const VENGEANCE_ASSETS: Asset[] = [
       "trigger",
       "that",
       "fans",
-      "vengeanceui",
       "tailwind"
     ],
     "complexity": "intermediate",
@@ -740,7 +717,7 @@ export const VENGEANCE_ASSETS: Asset[] = [
   {
     "id": "vg-circular-gallery",
     "title": "Circular Gallery",
-    "description": "Relaxing 3D ring of images with drag-spin, parallax tilt, and center preview. React + Tailwind component by @Ashutoshx7 on VengeanceUI.",
+    "description": "Relaxing 3D ring of images with drag-spin, parallax tilt, and center preview.",
     "category": "interactions",
     "libraries": [
       "gsap"
@@ -751,7 +728,6 @@ export const VENGEANCE_ASSETS: Asset[] = [
       "ring",
       "images",
       "drag-spin",
-      "vengeanceui",
       "tailwind"
     ],
     "complexity": "intermediate",
@@ -772,7 +748,7 @@ export const VENGEANCE_ASSETS: Asset[] = [
   {
     "id": "vg-expandable-bento-grid",
     "title": "Expandable Bento Grid",
-    "description": "Interactive multi-panel bento. React + Tailwind component by @Ashutoshx7 on VengeanceUI.",
+    "description": "Interactive multi-panel bento.",
     "category": "cards",
     "libraries": [
       "framer-motion"
@@ -782,7 +758,6 @@ export const VENGEANCE_ASSETS: Asset[] = [
       "interactive",
       "multi-panel",
       "bento",
-      "vengeanceui",
       "tailwind"
     ],
     "complexity": "intermediate",
@@ -803,7 +778,7 @@ export const VENGEANCE_ASSETS: Asset[] = [
   {
     "id": "vg-glow-border-card",
     "title": "Glow Border Card",
-    "description": "Card with animated glow border. React + Tailwind component by @Ashutoshx7 on VengeanceUI.",
+    "description": "Card with animated glow border.",
     "category": "cards",
     "libraries": [
       "css"
@@ -814,7 +789,6 @@ export const VENGEANCE_ASSETS: Asset[] = [
       "animated",
       "glow",
       "border",
-      "vengeanceui",
       "tailwind"
     ],
     "complexity": "basic",
@@ -835,7 +809,7 @@ export const VENGEANCE_ASSETS: Asset[] = [
   {
     "id": "vg-testimonials-card",
     "title": "Testimonials Card",
-    "description": "Animated testimonial stack. React + Tailwind component by @Ashutoshx7 on VengeanceUI.",
+    "description": "Animated testimonial stack.",
     "category": "cards",
     "libraries": [
       "framer-motion"
@@ -845,7 +819,6 @@ export const VENGEANCE_ASSETS: Asset[] = [
       "animated",
       "testimonial",
       "stack",
-      "vengeanceui",
       "tailwind"
     ],
     "complexity": "intermediate",
@@ -866,7 +839,7 @@ export const VENGEANCE_ASSETS: Asset[] = [
   {
     "id": "vg-team-reveal-grid",
     "title": "Team Reveal Grid",
-    "description": "Stateful team portraits with auto-cycling expertise reveals. React + Tailwind component by @Ashutoshx7 on VengeanceUI.",
+    "description": "Stateful team portraits with auto-cycling expertise reveals.",
     "category": "cards",
     "libraries": [
       "css"
@@ -877,7 +850,6 @@ export const VENGEANCE_ASSETS: Asset[] = [
       "team",
       "portraits",
       "auto-cycling",
-      "vengeanceui",
       "tailwind"
     ],
     "complexity": "intermediate",
@@ -898,7 +870,7 @@ export const VENGEANCE_ASSETS: Asset[] = [
   {
     "id": "vg-cursor-card",
     "title": "Cursor Card",
-    "description": "Inline text link with cursor tracking preview card. React + Tailwind component by @Ashutoshx7 on VengeanceUI.",
+    "description": "Inline text link with cursor tracking preview card.",
     "category": "tooltips",
     "libraries": [
       "framer-motion"
@@ -909,7 +881,6 @@ export const VENGEANCE_ASSETS: Asset[] = [
       "text",
       "link",
       "cursor",
-      "vengeanceui",
       "tailwind"
     ],
     "complexity": "basic",
@@ -930,7 +901,7 @@ export const VENGEANCE_ASSETS: Asset[] = [
   {
     "id": "vg-elastic-stack",
     "title": "Elastic Stack",
-    "description": "Horizontal expanding staggered stack. React + Tailwind component by @Ashutoshx7 on VengeanceUI.",
+    "description": "Horizontal expanding staggered stack.",
     "category": "marquee",
     "libraries": [
       "css"
@@ -941,7 +912,6 @@ export const VENGEANCE_ASSETS: Asset[] = [
       "expanding",
       "staggered",
       "stack",
-      "vengeanceui",
       "tailwind"
     ],
     "complexity": "basic",
@@ -962,7 +932,7 @@ export const VENGEANCE_ASSETS: Asset[] = [
   {
     "id": "vg-logo-slider",
     "title": "Logo Slider",
-    "description": "Infinite logo marquee. React + Tailwind component by @Ashutoshx7 on VengeanceUI.",
+    "description": "Infinite logo marquee.",
     "category": "marquee",
     "libraries": [
       "css"
@@ -972,7 +942,6 @@ export const VENGEANCE_ASSETS: Asset[] = [
       "infinite",
       "logo",
       "marquee",
-      "vengeanceui",
       "tailwind"
     ],
     "complexity": "basic",
@@ -993,7 +962,7 @@ export const VENGEANCE_ASSETS: Asset[] = [
   {
     "id": "vg-stacked-logos",
     "title": "Stacked Logos",
-    "description": "Overlapping brand logos. React + Tailwind component by @Ashutoshx7 on VengeanceUI.",
+    "description": "Overlapping brand logos.",
     "category": "marquee",
     "libraries": [
       "css"
@@ -1003,7 +972,6 @@ export const VENGEANCE_ASSETS: Asset[] = [
       "overlapping",
       "brand",
       "logos",
-      "vengeanceui",
       "tailwind"
     ],
     "complexity": "intermediate",
@@ -1024,7 +992,7 @@ export const VENGEANCE_ASSETS: Asset[] = [
   {
     "id": "vg-masked-avatars",
     "title": "Masked Avatars",
-    "description": "Stacked masked avatar list. React + Tailwind component by @Ashutoshx7 on VengeanceUI.",
+    "description": "Stacked masked avatar list.",
     "category": "tooltips",
     "libraries": [
       "framer-motion"
@@ -1035,7 +1003,6 @@ export const VENGEANCE_ASSETS: Asset[] = [
       "masked",
       "avatar",
       "list",
-      "vengeanceui",
       "tailwind"
     ],
     "complexity": "intermediate",
@@ -1056,7 +1023,7 @@ export const VENGEANCE_ASSETS: Asset[] = [
   {
     "id": "vg-image-reveal-list",
     "title": "Image Reveal List",
-    "description": "Hover-based image reveal tooltip list. React + Tailwind component by @Ashutoshx7 on VengeanceUI.",
+    "description": "Hover-based image reveal tooltip list.",
     "category": "tooltips",
     "libraries": [
       "css"
@@ -1067,7 +1034,6 @@ export const VENGEANCE_ASSETS: Asset[] = [
       "image",
       "reveal",
       "tooltip",
-      "vengeanceui",
       "tailwind"
     ],
     "complexity": "basic",
@@ -1088,7 +1054,7 @@ export const VENGEANCE_ASSETS: Asset[] = [
   {
     "id": "vg-faq-accordion",
     "title": "FAQ Accordion",
-    "description": "Animated expanding FAQ list. React + Tailwind component by @Ashutoshx7 on VengeanceUI.",
+    "description": "Animated expanding FAQ list.",
     "category": "faq",
     "libraries": [
       "css"
@@ -1099,7 +1065,6 @@ export const VENGEANCE_ASSETS: Asset[] = [
       "expanding",
       "faq",
       "list",
-      "vengeanceui",
       "tailwind"
     ],
     "complexity": "basic",
@@ -1120,7 +1085,7 @@ export const VENGEANCE_ASSETS: Asset[] = [
   {
     "id": "vg-shared-tooltip-avatars",
     "title": "Shared Tooltip Avatars",
-    "description": "Avatar stack with a sliding shared tooltip. React + Tailwind component by @Ashutoshx7 on VengeanceUI.",
+    "description": "Avatar stack with a sliding shared tooltip.",
     "category": "tooltips",
     "libraries": [
       "framer-motion"
@@ -1131,7 +1096,6 @@ export const VENGEANCE_ASSETS: Asset[] = [
       "stack",
       "sliding",
       "shared",
-      "vengeanceui",
       "tailwind"
     ],
     "complexity": "intermediate",
@@ -1152,7 +1116,7 @@ export const VENGEANCE_ASSETS: Asset[] = [
   {
     "id": "vg-kinetic-text-loader",
     "title": "Kinetic Text Loader",
-    "description": "Typography-based animated loader. React + Tailwind component by @Ashutoshx7 on VengeanceUI.",
+    "description": "Typography-based animated loader.",
     "category": "loaders",
     "libraries": [
       "css"
@@ -1162,7 +1126,6 @@ export const VENGEANCE_ASSETS: Asset[] = [
       "typography-based",
       "animated",
       "loader",
-      "vengeanceui",
       "tailwind"
     ],
     "complexity": "basic",
@@ -1183,7 +1146,7 @@ export const VENGEANCE_ASSETS: Asset[] = [
   {
     "id": "vg-glass-dock",
     "title": "Glass Dock",
-    "description": "Mac-style floating dock. React + Tailwind component by @Ashutoshx7 on VengeanceUI.",
+    "description": "Mac-style floating dock.",
     "category": "navbars",
     "libraries": [
       "framer-motion",
@@ -1194,7 +1157,6 @@ export const VENGEANCE_ASSETS: Asset[] = [
       "mac-style",
       "floating",
       "dock",
-      "vengeanceui",
       "tailwind"
     ],
     "complexity": "advanced",
@@ -1215,7 +1177,7 @@ export const VENGEANCE_ASSETS: Asset[] = [
   {
     "id": "vg-spotlight-navbar",
     "title": "Spotlight Navbar",
-    "description": "Navbar with animated spotlight effect. React + Tailwind component by @Ashutoshx7 on VengeanceUI.",
+    "description": "Navbar with animated spotlight effect.",
     "category": "navbars",
     "libraries": [
       "framer-motion"
@@ -1226,7 +1188,6 @@ export const VENGEANCE_ASSETS: Asset[] = [
       "animated",
       "spotlight",
       "effect",
-      "vengeanceui",
       "tailwind"
     ],
     "complexity": "intermediate",
@@ -1247,7 +1208,7 @@ export const VENGEANCE_ASSETS: Asset[] = [
   {
     "id": "vg-gooey-search",
     "title": "Gooey Search",
-    "description": "Morphing gooey blob search button with animated results. React + Tailwind component by @Ashutoshx7 on VengeanceUI.",
+    "description": "Morphing gooey blob search button with animated results.",
     "category": "navbars",
     "libraries": [
       "framer-motion"
@@ -1258,7 +1219,6 @@ export const VENGEANCE_ASSETS: Asset[] = [
       "gooey",
       "blob",
       "search",
-      "vengeanceui",
       "tailwind"
     ],
     "complexity": "advanced",
@@ -1279,7 +1239,7 @@ export const VENGEANCE_ASSETS: Asset[] = [
   {
     "id": "vg-line-hover-link",
     "title": "Line Hover Link",
-    "description": "Animated hover underline styles. React + Tailwind component by @Ashutoshx7 on VengeanceUI.",
+    "description": "Animated hover underline styles.",
     "category": "interactions",
     "libraries": [
       "css"
@@ -1290,7 +1250,6 @@ export const VENGEANCE_ASSETS: Asset[] = [
       "hover",
       "underline",
       "styles",
-      "vengeanceui",
       "tailwind"
     ],
     "complexity": "advanced",
@@ -1311,7 +1270,7 @@ export const VENGEANCE_ASSETS: Asset[] = [
   {
     "id": "vg-animated-tooltip",
     "title": "Animated Tooltip",
-    "description": "Bouncy SVG-shaped tooltips with spring animations. React + Tailwind component by @Ashutoshx7 on VengeanceUI.",
+    "description": "Bouncy SVG-shaped tooltips with spring animations.",
     "category": "tooltips",
     "libraries": [
       "framer-motion"
@@ -1322,7 +1281,6 @@ export const VENGEANCE_ASSETS: Asset[] = [
       "svg-shaped",
       "tooltips",
       "spring",
-      "vengeanceui",
       "tailwind"
     ],
     "complexity": "advanced",
@@ -1343,7 +1301,7 @@ export const VENGEANCE_ASSETS: Asset[] = [
   {
     "id": "vg-aurora-hero",
     "title": "Aurora Hero",
-    "description": "Fluted glass dynamic hero with interactive switch. React + Tailwind component by @Ashutoshx7 on VengeanceUI.",
+    "description": "Fluted glass dynamic hero with interactive switch.",
     "category": "patterns",
     "libraries": [
       "css"
@@ -1354,7 +1312,6 @@ export const VENGEANCE_ASSETS: Asset[] = [
       "glass",
       "dynamic",
       "hero",
-      "vengeanceui",
       "tailwind"
     ],
     "complexity": "intermediate",
@@ -1375,7 +1332,7 @@ export const VENGEANCE_ASSETS: Asset[] = [
   {
     "id": "vg-fluid-morph-bg",
     "title": "Fluid Morph Background",
-    "description": "Organic fluid shape morphing animation. React + Tailwind component by @Ashutoshx7 on VengeanceUI.",
+    "description": "Organic fluid shape morphing animation.",
     "category": "patterns",
     "libraries": [
       "framer-motion"
@@ -1386,7 +1343,6 @@ export const VENGEANCE_ASSETS: Asset[] = [
       "fluid",
       "shape",
       "morphing",
-      "vengeanceui",
       "tailwind"
     ],
     "complexity": "basic",
@@ -1407,7 +1363,7 @@ export const VENGEANCE_ASSETS: Asset[] = [
   {
     "id": "vg-twisting-ribbon",
     "title": "Twisting Ribbon",
-    "description": "3D waving neon ribbon animation. React + Tailwind component by @Ashutoshx7 on VengeanceUI.",
+    "description": "3D waving neon ribbon animation.",
     "category": "patterns",
     "libraries": [
       "css"
@@ -1418,7 +1374,6 @@ export const VENGEANCE_ASSETS: Asset[] = [
       "neon",
       "ribbon",
       "animation",
-      "vengeanceui",
       "tailwind"
     ],
     "complexity": "intermediate",
@@ -1439,7 +1394,7 @@ export const VENGEANCE_ASSETS: Asset[] = [
   {
     "id": "vg-animated-rays",
     "title": "Animated Rays",
-    "description": "Hero with animated heading. React + Tailwind component by @Ashutoshx7 on VengeanceUI.",
+    "description": "Hero with animated heading.",
     "category": "patterns",
     "libraries": [
       "css"
@@ -1449,7 +1404,6 @@ export const VENGEANCE_ASSETS: Asset[] = [
       "hero",
       "animated",
       "heading",
-      "vengeanceui",
       "tailwind"
     ],
     "complexity": "basic",
@@ -1470,7 +1424,7 @@ export const VENGEANCE_ASSETS: Asset[] = [
   {
     "id": "vg-perspective-grid",
     "title": "Perspective Grid",
-    "description": "3D perspective matrix background. React + Tailwind component by @Ashutoshx7 on VengeanceUI.",
+    "description": "3D perspective matrix background.",
     "category": "patterns",
     "libraries": [
       "css"
@@ -1480,7 +1434,6 @@ export const VENGEANCE_ASSETS: Asset[] = [
       "perspective",
       "matrix",
       "background",
-      "vengeanceui",
       "tailwind"
     ],
     "complexity": "basic",
@@ -1501,7 +1454,7 @@ export const VENGEANCE_ASSETS: Asset[] = [
   {
     "id": "vg-light-lines",
     "title": "Light Lines",
-    "description": "Animated flowing line background. React + Tailwind component by @Ashutoshx7 on VengeanceUI.",
+    "description": "Animated flowing line background.",
     "category": "patterns",
     "libraries": [
       "css"
@@ -1512,7 +1465,6 @@ export const VENGEANCE_ASSETS: Asset[] = [
       "flowing",
       "line",
       "background",
-      "vengeanceui",
       "tailwind"
     ],
     "complexity": "advanced",

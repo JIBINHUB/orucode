@@ -55,7 +55,6 @@ export default function AssetCard({ asset }: { asset: Asset }) {
         </div>
         <div className="acard-sub">
           {asset.libraries.map((l) => LIBRARY_MAP[l].label).join(" + ")}
-          {asset.credit ? ` · by ${asset.credit.author}` : ""}
         </div>
         <h3 className="acard-title">{asset.title}</h3>
         <div className="acard-meta">

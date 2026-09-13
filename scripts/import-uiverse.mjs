@@ -152,10 +152,10 @@ for (const [folder, category, noun, quota] of FOLDERS) {
     assets.push({
       id: `uv-${authorKey.replace(/[^a-z0-9]+/g, "-")}-${item.slug}`,
       title,
-      description: `${noun} by @${item.author} on Uiverse.io${shownTags.length ? ` — ${shownTags.join(", ")}` : ""}.`,
+      description: `${noun}${shownTags.length ? ` — ${shownTags.join(", ")}` : ""}.`,
       category,
       libraries: ["css"],
-      tags: [...new Set([...item.tags.slice(0, 6), "uiverse"])],
+      tags: [...new Set(item.tags.slice(0, 6))],
       complexity: item.cssLines < 50 ? "basic" : item.cssLines < 110 ? "intermediate" : "advanced",
       tone: "light",
       added: "2026-09-11",

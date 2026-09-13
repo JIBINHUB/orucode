@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 import { useState } from "react";
-import { ChevronLeft, CodeIcon, ExternalIcon, MailGlyph, SendIcon } from "../Icons";
+import { ChevronLeft, ExternalIcon, MailGlyph, SendIcon } from "../Icons";
 
 const EMAIL = "jibinchackoarpookara@gmail.com";
 const TELEGRAM = "jibinchacko";
@@ -14,7 +14,6 @@ const TELEGRAM = "jibinchacko";
 const PHOTO = "";
 
 export default function DeveloperView() {
-  // No photo on disk yet — fall back to the monogram rather than a broken image.
   const [photoOk, setPhotoOk] = useState(true);
 
   return (
@@ -50,8 +49,15 @@ export default function DeveloperView() {
           <span className="dev-dot" aria-hidden="true" />
         </span>
 
+        <p className="dev-hello">Hey, I’m</p>
         <h1 className="dev-name">Jibin Chacko</h1>
-        <p className="dev-sub">Developer &amp; designer · Leaf Creationism</p>
+        <p className="dev-sub">Designer &amp; developer · Leaf Creationism</p>
+
+        <div className="dev-chips">
+          <span className="dev-chip">Kerala, India</span>
+          <span className="dev-chip">Websites &amp; apps</span>
+          <span className="dev-chip">Made ORU CODE</span>
+        </div>
 
         <div className="dev-actions">
           <a className="dev-action" href={`mailto:${EMAIL}`}>
@@ -66,12 +72,6 @@ export default function DeveloperView() {
             </span>
             <span>Telegram</span>
           </a>
-          <a className="dev-action" href="https://github.com/JIBINHUB" target="_blank" rel="noreferrer">
-            <span className="dev-tile">
-              <CodeIcon size={22} />
-            </span>
-            <span>GitHub</span>
-          </a>
           <a className="dev-action" href="https://leafcreationism.in" target="_blank" rel="noreferrer">
             <span className="dev-tile">
               <ExternalIcon size={22} />
@@ -81,11 +81,17 @@ export default function DeveloperView() {
         </div>
 
         <div className="dev-bio">
-          <p className="dev-bio-k">bio</p>
+          <p className="dev-bio-k">a little about me</p>
           <p className="dev-bio-v">
-            I build fast, modern websites and apps at Leaf Creationism. ORU CODE is where I keep the UI,
-            code and motion worth reusing — all of it free to copy.
+            I design and build websites and apps from Kerala, and I run Leaf Creationism — the place where
+            rough ideas get turned into things people genuinely enjoy using.
           </p>
+          <p className="dev-bio-v">
+            I made ORU CODE because good interfaces shouldn’t sit locked away in one person’s folder.
+            Everything here is free to copy, remix and ship. If a piece of it ends up in your project, I’d
+            honestly love to see it — send me a message.
+          </p>
+          <p className="dev-sign">— Jibin</p>
         </div>
 
         <div className="dev-rows">

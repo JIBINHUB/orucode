@@ -19,6 +19,8 @@ interface Props {
   src?: string;
   /** Virtual viewport width. When set, the frame is scaled to fit the host width. */
   virtualWidth?: number;
+  /** In a portrait host, keep a desktop-shaped (16:10) viewport and letterbox it. */
+  landscape?: boolean;
   interactive?: boolean;
   /** Mount only while on screen (used by gallery cards). */
   lazy?: boolean;
@@ -33,6 +35,7 @@ export default function LivePreview({
   doc,
   src,
   virtualWidth,
+  landscape,
   interactive = true,
   lazy = false,
   reloadKey = 0,
@@ -93,16 +96,22 @@ export default function LivePreview({
 
   useEffect(() => setLoaded(false), [srcDoc, src, reloadKey, visible]);
 
-  const scale = virtualWidth && size.w ? size.w / virtualWidth : 1;
-  const frameStyle: React.CSSProperties = virtualWidth
-    ? { width: virtualWidth, height: size.h / scale, transform: `scale(${scale})` }
-    : { width: "100%", height: "100%" };
+  // Only ever shrink a wide virtual viewport to fit; a host wider than it renders at 100%.
+  const scale = virtualWidth && size.w > 0 && size.w < virtualWidth ? size.w / virtualWidth : 1;
+  // A phone's stage is portrait: a tall virtual viewport makes vh-sized designs wider than
+  // the frame, so they drift sideways. "landscape" keeps it desktop-shaped and centred.
+  const virtualH =
+    landscape && virtualWidth && size.h > size.w ? Math.min(size.h / scale, virtualWidth * 0.625) : size.h / scale;
+  const frameStyle: React.CSSProperties =
+    scale < 1
+      ? { width: virtualWidth, height: virtualH, top: (size.h - virtualH * scale) / 2, transform: `scale(${scale})` }
+      : { width: "100%", height: "100%" };
 
   const frameProps = src !== undefined ? { src } : { srcDoc };
   const ready = src !== undefined ? visible : visible && !!srcDoc;
 
   return (
-    <div ref={hostRef} className="preview-host">
+    <div ref={hostRef} className={asset ? "preview-host ground" : "preview-host"}>
       {!loaded && (
         <div className="preview-skeleton">
           <span className="preview-spinner" aria-hidden="true" />

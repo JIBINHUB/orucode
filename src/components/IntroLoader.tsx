@@ -97,6 +97,8 @@ export default function IntroLoader() {
 
   useEffect(() => {
     if (!show) return;
+    // The overlay has painted above the static boot cover, so it can go.
+    document.getElementById("oru-boot")?.setAttribute("data-done", "");
     const ctx = gsap.context(() => {
       const q = gsap.utils.selector(root);
       const layout = (left: number, right: number, gap: number) => {

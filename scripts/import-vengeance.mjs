@@ -215,10 +215,10 @@ function buildComponentUnsafe(meta) {
     asset: {
       id: `vg-${meta.componentName}`,
       title: meta.name,
-      description: `${meta.description}. React + Tailwind component by @Ashutoshx7 on VengeanceUI.`,
+      description: `${meta.description}.`,
       category,
       libraries,
-      tags: [...new Set([...words.slice(0, 5), "vengeanceui", "tailwind"])],
+      tags: [...new Set([...words.slice(0, 5), "tailwind"])],
       complexity: lines < 100 ? "basic" : lines < 260 ? "intermediate" : "advanced",
       tone: "dark",
       added: "2026-09-11",

@@ -2,10 +2,10 @@
 
 import { AnimatePresence, motion } from "framer-motion";
 import Link from "next/link";
-import { useMemo, useState, type CSSProperties } from "react";
+import { useMemo, useState } from "react";
 import AssetCard from "../AssetCard";
 import { LeafLogo } from "../Brand";
-import KeralaStamp from "../KeralaStamp";
+import LeafStickers from "../LeafStickers";
 import LivePreview from "../LivePreview";
 import { ArrowRight, BookmarkFilled, CATEGORY_GLYPHS, PromptGlyph, WandIcon } from "../Icons";
 import { ASSETS, CATEGORY_COUNTS, LIBRARY_COUNTS, PROMPTS } from "@/data";
@@ -15,14 +15,13 @@ import type { CategoryId } from "@/lib/types";
 
 const plural = (n: number, word: string) => `${n} ${word}${n === 1 ? "" : "s"}`;
 
-const leafReveal = {
-  hidden: {},
-  show: { transition: { staggerChildren: 0.12, delayChildren: 0.05 } },
-};
-const leafItem = {
-  hidden: { opacity: 0, y: 26 },
-  show: { opacity: 1, y: 0, transition: { duration: 0.6, ease: [0.2, 0.8, 0.2, 1] as const } },
-};
+// Each piece watches its own visibility, so the fade-in can't be stranded by a wrapper.
+const reveal = (i: number) => ({
+  initial: { opacity: 0, y: 26 },
+  whileInView: { opacity: 1, y: 0 },
+  viewport: { once: true, amount: 0.2 },
+  transition: { duration: 0.6, delay: 0.05 + i * 0.12, ease: [0.2, 0.8, 0.2, 1] as const },
+});
 
 function IdeaHead({ step, title, sub }: { step: number; title: string; sub: string }) {
   return (
@@ -254,75 +253,35 @@ export default function HomeView() {
 
       <section className="section">
         <motion.div
-          className="leaf-cta"
-          variants={leafReveal}
-          initial="hidden"
-          whileInView="show"
-          viewport={{ once: true, amount: 0.4 }}
+          className="lc"
+          onPointerMove={(e) => {
+            const r = e.currentTarget.getBoundingClientRect();
+            e.currentTarget.style.setProperty("--mx", (((e.clientX - r.left) / r.width) * 2 - 1).toFixed(3));
+            e.currentTarget.style.setProperty("--my", (((e.clientY - r.top) / r.height) * 2 - 1).toFixed(3));
+          }}
+          onPointerLeave={(e) => {
+            e.currentTarget.style.setProperty("--mx", "0");
+            e.currentTarget.style.setProperty("--my", "0");
+          }}
         >
-          <div className="leaf-stickers" aria-hidden="true">
-            <span className="leaf-glow" />
-            <span className="lst" style={{ left: "2%", top: "9%", "--r": "-9deg" } as CSSProperties}>
-              <KeralaStamp
-                n="01"
-                title={["The", "Backwaters"]}
-                caption="Where the day slows to a drift."
-                motif="palm"
-                tint="#f3e6f7"
-                size={112}
-              />
-            </span>
-            <span className="lst" style={{ left: "5%", top: "54%", "--r": "7deg", animationDelay: "-1.4s" } as CSSProperties}>
-              <KeralaStamp
-                n="02"
-                title={["Snake", "Boat"]}
-                caption="Eighty oars, one heartbeat."
-                motif="boat"
-                size={108}
-              />
-            </span>
-            <span className="lst" style={{ right: "3%", top: "7%", "--r": "8deg", animationDelay: "-2.6s" } as CSSProperties}>
-              <KeralaStamp
-                n="03"
-                title={["Temple", "Giant"]}
-                caption="Gold on grey, festival mornings."
-                motif="elephant"
-                size={112}
-              />
-            </span>
-            <span className="lst" style={{ right: "2%", top: "52%", "--r": "-6deg", animationDelay: "-3.5s" } as CSSProperties}>
-              <KeralaStamp
-                n="04"
-                title={["Festival", "Shade"]}
-                caption="A hundred parasols in the sun."
-                motif="umbrella"
-                tint="#eaf0fb"
-                size={106}
-              />
-            </span>
-            <span className="lst" style={{ left: "17%", top: "80%", "--r": "-12deg", animationDelay: "-4.4s" } as CSSProperties}>
-              <KeralaStamp
-                n="05"
-                title={["Stage", "Crown"]}
-                caption="Stories told in colour."
-                motif="crown"
-                size={100}
-              />
-            </span>
+          <div className="lc-copy">
+            <motion.span className="lc-tag" {...reveal(0)}>
+              <LeafLogo size={22} /> Leaf Creationism
+            </motion.span>
+            <motion.h2 className="lc-title" {...reveal(1)}>
+              Finding it hard to design or build your <em>website or app?</em>
+            </motion.h2>
+            <motion.p className="lc-text" {...reveal(2)}>
+              Leaf Creationism designs and builds fast, modern sites and apps — talk to our team about yours.
+            </motion.p>
+            <motion.div className="lc-actions" {...reveal(3)}>
+              <a href="https://leafcreationism.in" target="_blank" rel="noreferrer" className="btn btn-light">
+                Talk to Leaf Creationism <ArrowRight size={16} />
+              </a>
+              <span className="lc-url">leafcreationism.in</span>
+            </motion.div>
           </div>
-
-          <motion.span className="leaf-logo" variants={leafItem}>
-            <LeafLogo size={64} />
-          </motion.span>
-          <motion.h2 variants={leafItem}>Finding it hard to design or build your website or app?</motion.h2>
-          <motion.p variants={leafItem}>
-            Leaf Creationism designs and builds fast, modern sites and apps — talk to our team about yours.
-          </motion.p>
-          <motion.div className="btn-row-cta" variants={leafItem}>
-            <a href="https://leafcreationism.in" target="_blank" rel="noreferrer" className="btn btn-light">
-              Talk to Leaf Creationism <ArrowRight size={16} />
-            </a>
-          </motion.div>
+          <LeafStickers />
         </motion.div>
       </section>
     </>

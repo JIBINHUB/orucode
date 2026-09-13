@@ -3,6 +3,9 @@ import type { HtmlVariant, LibraryId, ReactVariant } from "./types";
 
 export const VERSIONS = { gsap: "3.13.0", animejs: "3.2.2" };
 
+/** How a library preview picks its polarity on the dark ground: detect it, or use a known tone. */
+export type GroundMode = "auto" | "light" | "dark";
+
 const CDN = {
   gsap: `https://cdn.jsdelivr.net/npm/gsap@${VERSIONS.gsap}/dist/gsap.min.js`,
   scrollTrigger: `https://cdn.jsdelivr.net/npm/gsap@${VERSIONS.gsap}/dist/ScrollTrigger.min.js`,
@@ -58,6 +61,83 @@ const BRIDGE = `(function(){
   document.addEventListener("submit",function(e){e.preventDefault()},true);
 })();`;
 
+/**
+ * Library previews sit on a dark ground. A design that paints a light
+ * full-bleed background is flipped with invert + hue-rotate (darker, same
+ * hues; photos flipped back), and one that paints a dark ground is left alone.
+ * With no painted ground the content decides: mostly-dark ink is flipped so it
+ * stays readable, light ink is kept. Only mostly-opaque colours count, so a
+ * faint glow over a dark body isn't read as a light ground.
+ */
+const GROUND_STYLE =
+  "html.__oru-inv{filter:invert(1) hue-rotate(180deg)}html.__oru-inv img,html.__oru-inv video{filter:invert(1) hue-rotate(180deg)}";
+
+const groundScript = (waitForRoot: boolean, tone: GroundMode = "auto") => `(function(){
+  var root=document.documentElement;
+  var parse=function(c){var m=c&&c.match(/rgba?\\(([^)]+)\\)/);if(!m)return null;var p=m[1].split(",").map(parseFloat);return {l:(0.2126*p[0]+0.7152*p[1]+0.0722*p[2])/255,a:p.length>3?p[3]:1}};
+  var paint=function(el){
+    var cs=getComputedStyle(el),img=cs.backgroundImage;
+    if(img&&img!=="none"){
+      var cols=img.match(/rgba?\\([^)]+\\)/g);
+      if(!cols)return 0.3;
+      var s=0,w=0;cols.forEach(function(c){var v=parse(c);if(v&&v.a>=0.5){s+=v.l;w++}});
+      if(w)return s/w;
+    }
+    var bg=parse(cs.backgroundColor);
+    return bg&&bg.a>=0.5?bg.l:null;
+  };
+  var ink=function(){
+    var area=innerWidth*innerHeight,dark=0,light=0,nodes=document.body?document.body.getElementsByTagName("*"):[];
+    var add=function(c,a){var v=parse(c);if(!v||v.a<0.5||!(a>0))return;if(v.l<0.45)dark+=a;else if(v.l>0.55)light+=a};
+    var solid=function(list,a){(String(list).match(/rgba?\\([^)]+\\)/g)||[]).forEach(function(c){add(c,a)})};
+    var box=function(cs,wd,ht){
+      if(wd*ht<area*0.85){add(cs.backgroundColor,wd*ht);if(cs.backgroundImage&&cs.backgroundImage!=="none")solid(cs.backgroundImage,wd*ht)}
+      ["Top","Right","Bottom","Left"].forEach(function(side,k){var bw=parseFloat(cs["border"+side+"Width"])||0;if(bw&&cs["border"+side+"Style"]!=="none")add(cs["border"+side+"Color"],bw*(k%2?ht:wd))});
+      if(cs.boxShadow&&cs.boxShadow!=="none")solid(cs.boxShadow,wd*ht);
+    };
+    for(var i=0;i<nodes.length&&i<700;i++){
+      var n=nodes[i],b0=n.getBoundingClientRect(),r={width:n.offsetWidth||b0.width,height:n.offsetHeight||b0.height};
+      if(n instanceof SVGElement&&n.getBBox){try{var bb=n.getBBox();r={width:bb.width||b0.width,height:bb.height||b0.height}}catch(e){}}
+      if(!r.width||!r.height)continue;
+      var cs=getComputedStyle(n);if(cs.display==="none")continue;
+      var fs=parseFloat(cs.fontSize)||16,t=0;
+      for(var c=n.firstChild;c;c=c.nextSibling)if(c.nodeType===3)t+=c.nodeValue.trim().length;
+      if(t)add(cs.color,t*fs*fs*0.25);
+      if(n instanceof SVGElement){if(n.tagName!=="svg"&&n.tagName!=="g"){add(cs.fill,r.width*r.height*0.5);add(cs.stroke,(r.width+r.height)*2*(parseFloat(cs.strokeWidth)||1))}continue}
+      box(cs,r.width,r.height);
+      ["::before","::after"].forEach(function(p){
+        var ps=getComputedStyle(n,p);if(!ps.content||ps.content==="none"||ps.content==="normal")return;
+        var pw=parseFloat(ps.width),ph=parseFloat(ps.height);if(!(pw>0))pw=r.width;if(!(ph>0))ph=r.height;
+        box(ps,pw,ph);
+        var txt=ps.content.charAt(0)==='"'?ps.content.slice(1,-1):"";if(txt)add(ps.color,txt.length*fs*fs*0.25);
+      });
+    }
+    return dark||light?dark>=light*0.8:null;
+  };
+  var decide=function(){
+    // Imported designs sit in ORU's own light preview frame; that backdrop isn't the
+    // author's design, so drop it and use the tone read from the design's own CSS.
+    var framed=[].some.call(document.querySelectorAll("style"),function(s){return s.textContent.indexOf("ORU preview frame")>=0});
+    if(framed&&document.body)document.body.style.background="transparent";
+    var l=${tone === "light" ? "1" : tone === "dark" ? "0" : "null"};
+    if(l===null){
+      var area=innerWidth*innerHeight,el=document.elementFromPoint(innerWidth/2,innerHeight/2);
+      for(;el&&el!==document.body&&el!==root;el=el.parentElement){var r=el.getBoundingClientRect();if(r.width*r.height>=area*0.85){l=paint(el);if(l!==null)break}}
+      if(l===null&&document.body)l=paint(document.body);
+      if(l===null)l=paint(root);
+      if(l===null){var k=ink();l=k===false?0:1}
+    }
+    if(l>0.55){root.style.background="#f1f1f2";root.classList.add("__oru-inv")}
+    else if(paint(root)===null)root.style.background="#0e0e11";
+  };
+  var start=function(){${
+    waitForRoot
+      ? `var tries=0,tick=function(){var r=document.getElementById("root");if((r&&r.firstElementChild)||tries++>30)decide();else requestAnimationFrame(tick)};requestAnimationFrame(tick)`
+      : "decide()"
+  }};
+  if(document.readyState==="loading")document.addEventListener("DOMContentLoaded",start);else start();
+})();`;
+
 interface DocOptions {
   mode: "preview" | "export";
   /**
@@ -67,6 +147,8 @@ interface DocOptions {
    */
   inline?: string[];
   title?: string;
+  /** Preview mode only: put the design on the dark library ground (see GROUND_STYLE). */
+  ground?: GroundMode;
 }
 
 export function buildHtmlDocument(v: HtmlVariant, opts: DocOptions): string {
@@ -82,8 +164,9 @@ export function buildHtmlDocument(v: HtmlVariant, opts: DocOptions): string {
   const head = [
     `  <meta charset="UTF-8" />`,
     `  <meta name="viewport" content="width=device-width, initial-scale=1.0" />`,
-    `  <title>${opts.title ?? "Oru UI snippet"}</title>`,
+    `  <title>${opts.title ?? "ORU CODE snippet"}</title>`,
     preview ? `  <script>${BRIDGE}</script>` : "",
+    preview && opts.ground ? `  <style>${GROUND_STYLE}</style>\n  <script>${groundScript(false, opts.ground)}</script>` : "",
     `  <style>\n${indent(escapeStyle(v.css), 4)}\n  </style>`,
   ]
     .filter(Boolean)
@@ -144,7 +227,7 @@ export function fetchVendor(file: string): Promise<string> {
 }
 
 /** Preview document for an HTML variant with its libraries inlined. */
-export async function buildHtmlPreview(v: HtmlVariant, title?: string): Promise<string> {
+export async function buildHtmlPreview(v: HtmlVariant, title?: string, ground?: GroundMode): Promise<string> {
   const libs = detectScriptLibs(v.js);
   const files = [
     libs.gsap && "gsap.min.js",
@@ -152,7 +235,7 @@ export async function buildHtmlPreview(v: HtmlVariant, title?: string): Promise<
     libs.anime && "anime.min.js",
   ].filter(Boolean) as string[];
   const inline = await Promise.all(files.map(fetchVendor));
-  return buildHtmlDocument(v, { mode: "preview", inline, title });
+  return buildHtmlDocument(v, { mode: "preview", inline, title, ground });
 }
 
 /**
@@ -161,16 +244,23 @@ export async function buildHtmlPreview(v: HtmlVariant, title?: string): Promise<
  * (e.g. imported components) — a Tailwind JIT engine is inlined so those
  * classes actually resolve to styles, matching their original build setup.
  */
-export async function buildReactPreview(v: ReactVariant, title?: string, tailwind?: boolean): Promise<string> {
+export async function buildReactPreview(
+  v: ReactVariant,
+  title?: string,
+  tailwind?: boolean,
+  ground?: GroundMode,
+): Promise<string> {
   const files = ["oru-runtime.js", "babel.min.js", ...(tailwind ? ["tailwind-browser.js"] : [])];
   const [runtime, babel, tailwindEngine] = await Promise.all(files.map(fetchVendor));
-  return buildReactDocument(v, { inline: [runtime, babel], tailwind: tailwindEngine, title });
+  return buildReactDocument(v, { inline: [runtime, babel], tailwind: tailwindEngine, title, ground });
 }
 
 export function buildReactDocument(
   v: ReactVariant,
-  opts: { inline: [string, string]; tailwind?: string; title?: string },
+  opts: { inline: [string, string]; tailwind?: string; title?: string; ground?: GroundMode },
 ): string {
+  // React renders after load, so the ground is measured once the first render lands.
+  const ground = opts.ground ? `\n  <style>${GROUND_STYLE}</style>\n  <script>${groundScript(true, opts.ground)}</script>` : "";
   const source = JSON.stringify(v.code).replace(/</g, "\\u003c");
   // Tailwind-based snippets are authored dark-first (dark: variants carry their
   // real look), so the preview's <html> opts into dark mode to match.
@@ -179,9 +269,9 @@ export function buildReactDocument(
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>${opts.title ?? "Oru UI snippet"}</title>
+  <title>${opts.title ?? "ORU CODE snippet"}</title>
   <script>${BRIDGE}</script>
-  <style>body{margin:0}</style>
+  <style>body{margin:0}</style>${ground}
   <style>
 ${indent(escapeStyle(v.css ?? ""), 4)}
   </style>

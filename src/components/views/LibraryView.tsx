@@ -169,16 +169,18 @@ export default function LibraryView() {
             </button>
           )}
         </label>
-        <FacetDropdown label="Category" options={CATEGORIES} selected={filters.cats} counts={counts.cats} onToggle={(id) => toggle("cats", id)} />
-        <FacetDropdown label="Library" options={LIBRARIES} selected={filters.libs} counts={counts.libs} onToggle={(id) => toggle("libs", id)} />
-        <FacetDropdown label="Framework" options={FRAMEWORKS} selected={filters.fws} counts={counts.fws} onToggle={(id) => toggle("fws", id)} />
-        <FacetDropdown label="Level" options={COMPLEXITIES} selected={filters.levels} counts={counts.levels} onToggle={(id) => toggle("levels", id)} />
-        <FacetDropdown label="Tone" options={TONES} selected={filters.tones} counts={counts.tones} onToggle={(id) => toggle("tones", id)} />
-        <select className="select" value={filters.sort} onChange={(e) => update({ sort: e.target.value as FilterState["sort"] })} aria-label="Sort">
-          <option value="featured">{filters.q ? "Best match" : "Featured"}</option>
-          <option value="newest">Newest</option>
-          <option value="az">A → Z</option>
-        </select>
+        <div className="toolbar-filters">
+          <FacetDropdown label="Category" options={CATEGORIES} selected={filters.cats} counts={counts.cats} onToggle={(id) => toggle("cats", id)} />
+          <FacetDropdown label="Library" options={LIBRARIES} selected={filters.libs} counts={counts.libs} onToggle={(id) => toggle("libs", id)} />
+          <FacetDropdown label="Framework" options={FRAMEWORKS} selected={filters.fws} counts={counts.fws} onToggle={(id) => toggle("fws", id)} />
+          <FacetDropdown label="Level" options={COMPLEXITIES} selected={filters.levels} counts={counts.levels} onToggle={(id) => toggle("levels", id)} />
+          <FacetDropdown label="Tone" options={TONES} selected={filters.tones} counts={counts.tones} onToggle={(id) => toggle("tones", id)} />
+          <select className="select" value={filters.sort} onChange={(e) => update({ sort: e.target.value as FilterState["sort"] })} aria-label="Sort">
+            <option value="featured">{filters.q ? "Best match" : "Featured"}</option>
+            <option value="newest">Newest</option>
+            <option value="az">A → Z</option>
+          </select>
+        </div>
       </div>
 
       {chips.length > 0 && (

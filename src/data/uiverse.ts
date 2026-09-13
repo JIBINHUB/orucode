@@ -8,7 +8,7 @@ export const UIVERSE_ASSETS: Asset[] = [
   {
     "id": "uv-deri-kurniawan-moody-lion-47",
     "title": "Colorful Button",
-    "description": "Button by @Deri-Kurniawan on Uiverse.io — button, colorful, btn, hover effect.",
+    "description": "Button — button, colorful, btn, hover effect.",
     "category": "buttons",
     "libraries": [
       "css"
@@ -18,7 +18,6 @@ export const UIVERSE_ASSETS: Asset[] = [
       "colorful",
       "btn",
       "hover effect",
-      "uiverse"
     ],
     "complexity": "basic",
     "tone": "light",
@@ -38,7 +37,7 @@ export const UIVERSE_ASSETS: Asset[] = [
   {
     "id": "uv-nomnomcats-angry-firefox-98",
     "title": "Flashy Button",
-    "description": "Button by @NomNomcats on Uiverse.io — flashy, button, hover.",
+    "description": "Button — flashy, button, hover.",
     "category": "buttons",
     "libraries": [
       "css"
@@ -48,7 +47,6 @@ export const UIVERSE_ASSETS: Asset[] = [
       "flashy",
       "button",
       "hover",
-      "uiverse"
     ],
     "complexity": "basic",
     "tone": "light",
@@ -68,7 +66,7 @@ export const UIVERSE_ASSETS: Asset[] = [
   {
     "id": "uv-khaledmatalkah-cuddly-zebra-19",
     "title": "Hover Button",
-    "description": "Button by @KhaledMatalkah on Uiverse.io — button, hover, transition.",
+    "description": "Button — button, hover, transition.",
     "category": "buttons",
     "libraries": [
       "css"
@@ -77,7 +75,6 @@ export const UIVERSE_ASSETS: Asset[] = [
       "button",
       "hover",
       "transition",
-      "uiverse"
     ],
     "complexity": "intermediate",
     "tone": "light",
@@ -97,7 +94,7 @@ export const UIVERSE_ASSETS: Asset[] = [
   {
     "id": "uv-dear31-good-yak-38",
     "title": "Good Yak Button",
-    "description": "Button by @Dear31 on Uiverse.io — button, hover.",
+    "description": "Button — button, hover.",
     "category": "buttons",
     "libraries": [
       "css"
@@ -106,7 +103,6 @@ export const UIVERSE_ASSETS: Asset[] = [
       "simple",
       "button",
       "hover",
-      "uiverse"
     ],
     "complexity": "basic",
     "tone": "light",
@@ -126,7 +122,7 @@ export const UIVERSE_ASSETS: Asset[] = [
   {
     "id": "uv-gaurav-webdev-tall-mayfly-60",
     "title": "Animated Button",
-    "description": "Button by @Gaurav-WebDev on Uiverse.io — button, animated, hover effect.",
+    "description": "Button — button, animated, hover effect.",
     "category": "buttons",
     "libraries": [
       "css"
@@ -137,7 +133,6 @@ export const UIVERSE_ASSETS: Asset[] = [
       "dark",
       "animated",
       "hover effect",
-      "uiverse"
     ],
     "complexity": "basic",
     "tone": "light",
@@ -157,7 +152,7 @@ export const UIVERSE_ASSETS: Asset[] = [
   {
     "id": "uv-zjssun-tidy-sloth-40",
     "title": "Neon Button",
-    "description": "Button by @zjssun on Uiverse.io — button, neon.",
+    "description": "Button — button, neon.",
     "category": "buttons",
     "libraries": [
       "css"
@@ -165,7 +160,6 @@ export const UIVERSE_ASSETS: Asset[] = [
     "tags": [
       "button",
       "neon",
-      "uiverse"
     ],
     "complexity": "basic",
     "tone": "light",
@@ -185,7 +179,7 @@ export const UIVERSE_ASSETS: Asset[] = [
   {
     "id": "uv-eduardo-amaro-maciel-slimy-stingray-64",
     "title": "Minimalist Button",
-    "description": "Button by @eduardo-amaro-maciel on Uiverse.io — minimalist, button, hover, border.",
+    "description": "Button — minimalist, button, hover, border.",
     "category": "buttons",
     "libraries": [
       "css"
@@ -197,7 +191,6 @@ export const UIVERSE_ASSETS: Asset[] = [
       "hover",
       "border",
       "hover effect",
-      "uiverse"
     ],
     "complexity": "basic",
     "tone": "light",
@@ -217,7 +210,7 @@ export const UIVERSE_ASSETS: Asset[] = [
   {
     "id": "uv-brian-pob-spotty-treefrog-35",
     "title": "Css Animation Button",
-    "description": "Button by @Brian-Pob on Uiverse.io — button, css animation, button hover effect.",
+    "description": "Button — button, css animation, button hover effect.",
     "category": "buttons",
     "libraries": [
       "css"
@@ -226,7 +219,6 @@ export const UIVERSE_ASSETS: Asset[] = [
       "button",
       "css animation",
       "button hover effect",
-      "uiverse"
     ],
     "complexity": "basic",
     "tone": "light",
@@ -246,7 +238,7 @@ export const UIVERSE_ASSETS: Asset[] = [
   {
     "id": "uv-vashong-tiny-snake-44",
     "title": "Animation Button",
-    "description": "Button by @VashonG on Uiverse.io — flashy, animation, button.",
+    "description": "Button — flashy, animation, button.",
     "category": "buttons",
     "libraries": [
       "css"
@@ -255,7 +247,6 @@ export const UIVERSE_ASSETS: Asset[] = [
       "flashy",
       "animation",
       "button",
-      "uiverse"
     ],
     "complexity": "intermediate",
     "tone": "light",
@@ -275,7 +266,7 @@ export const UIVERSE_ASSETS: Asset[] = [
   {
     "id": "uv-izoxvl-wise-goat-75",
     "title": "Material Design Button",
-    "description": "Button by @iZOXVL on Uiverse.io — material design, animation, minimalist, button.",
+    "description": "Button — material design, animation, minimalist, button.",
     "category": "buttons",
     "libraries": [
       "css"
@@ -287,7 +278,6 @@ export const UIVERSE_ASSETS: Asset[] = [
       "minimalist",
       "black",
       "button",
-      "uiverse"
     ],
     "complexity": "basic",
     "tone": "light",
@@ -307,7 +297,7 @@ export const UIVERSE_ASSETS: Asset[] = [
   {
     "id": "uv-neerajbaniwal-strong-pig-36",
     "title": "3d Button",
-    "description": "Button by @neerajbaniwal on Uiverse.io — button, 3d button.",
+    "description": "Button — button, 3d button.",
     "category": "buttons",
     "libraries": [
       "css"
@@ -316,7 +306,6 @@ export const UIVERSE_ASSETS: Asset[] = [
       "simple",
       "button",
       "3d button",
-      "uiverse"
     ],
     "complexity": "intermediate",
     "tone": "light",
@@ -336,7 +325,7 @@ export const UIVERSE_ASSETS: Asset[] = [
   {
     "id": "uv-isfandiyor132-witty-falcon-39",
     "title": "Square Button",
-    "description": "Button by @isfandiyor132 on Uiverse.io — button, hover, square, neon.",
+    "description": "Button — button, hover, square, neon.",
     "category": "buttons",
     "libraries": [
       "css"
@@ -347,7 +336,6 @@ export const UIVERSE_ASSETS: Asset[] = [
       "square",
       "neon",
       "futuristic",
-      "uiverse"
     ],
     "complexity": "basic",
     "tone": "light",
@@ -367,7 +355,7 @@ export const UIVERSE_ASSETS: Asset[] = [
   {
     "id": "uv-doniaskima-great-dolphin-45",
     "title": "Great Dolphin Button",
-    "description": "Button by @doniaskima on Uiverse.io — button, animated.",
+    "description": "Button — button, animated.",
     "category": "buttons",
     "libraries": [
       "css"
@@ -375,7 +363,6 @@ export const UIVERSE_ASSETS: Asset[] = [
     "tags": [
       "button",
       "animated",
-      "uiverse"
     ],
     "complexity": "intermediate",
     "tone": "light",
@@ -395,7 +382,7 @@ export const UIVERSE_ASSETS: Asset[] = [
   {
     "id": "uv-captaintoy-witty-ladybug-99",
     "title": "Bounce Animation Button",
-    "description": "Button by @CaptainToy on Uiverse.io — button, buttons, simple button, hover button.",
+    "description": "Button — button, buttons, simple button, hover button.",
     "category": "buttons",
     "libraries": [
       "css"
@@ -406,7 +393,6 @@ export const UIVERSE_ASSETS: Asset[] = [
       "simple button",
       "hover button",
       "bounce animation",
-      "uiverse"
     ],
     "complexity": "intermediate",
     "tone": "light",
@@ -426,7 +412,7 @@ export const UIVERSE_ASSETS: Asset[] = [
   {
     "id": "uv-oncloud125252-tough-moth-4",
     "title": "Tough Moth Button",
-    "description": "Button by @OnCloud125252 on Uiverse.io — button, animated, simple button.",
+    "description": "Button — button, animated, simple button.",
     "category": "buttons",
     "libraries": [
       "css"
@@ -437,7 +423,6 @@ export const UIVERSE_ASSETS: Asset[] = [
       "button",
       "animated",
       "simple button",
-      "uiverse"
     ],
     "complexity": "intermediate",
     "tone": "light",
@@ -457,7 +442,7 @@ export const UIVERSE_ASSETS: Asset[] = [
   {
     "id": "uv-cjnoise-stupid-fish-62",
     "title": "Stupid Fish Button",
-    "description": "Button by @cjnoise on Uiverse.io — button, animated, 3d button.",
+    "description": "Button — button, animated, 3d button.",
     "category": "buttons",
     "libraries": [
       "css"
@@ -467,7 +452,6 @@ export const UIVERSE_ASSETS: Asset[] = [
       "button",
       "animated",
       "3d button",
-      "uiverse"
     ],
     "complexity": "basic",
     "tone": "light",
@@ -487,7 +471,7 @@ export const UIVERSE_ASSETS: Asset[] = [
   {
     "id": "uv-peary74-cuddly-gecko-61",
     "title": "Cuddly Gecko Button",
-    "description": "Button by @Peary74 on Uiverse.io — button, hover, hover button.",
+    "description": "Button — button, hover, hover button.",
     "category": "buttons",
     "libraries": [
       "css"
@@ -496,7 +480,6 @@ export const UIVERSE_ASSETS: Asset[] = [
       "button",
       "hover",
       "hover button",
-      "uiverse"
     ],
     "complexity": "intermediate",
     "tone": "light",
@@ -516,7 +499,7 @@ export const UIVERSE_ASSETS: Asset[] = [
   {
     "id": "uv-selfmadesystem-tough-fireant-47",
     "title": "Neumorphism Button",
-    "description": "Button by @SelfMadeSystem on Uiverse.io — neumorphism, animation, minimalist, button.",
+    "description": "Button — neumorphism, animation, minimalist, button.",
     "category": "buttons",
     "libraries": [
       "css"
@@ -528,7 +511,6 @@ export const UIVERSE_ASSETS: Asset[] = [
       "blue",
       "minimalist",
       "button",
-      "uiverse"
     ],
     "complexity": "basic",
     "tone": "light",
@@ -548,7 +530,7 @@ export const UIVERSE_ASSETS: Asset[] = [
   {
     "id": "uv-vinodjangid07-modern-bear-96",
     "title": "Gradient Button",
-    "description": "Button by @vinodjangid07 on Uiverse.io — gradient, button, hover effect.",
+    "description": "Button — gradient, button, hover effect.",
     "category": "buttons",
     "libraries": [
       "css"
@@ -557,7 +539,6 @@ export const UIVERSE_ASSETS: Asset[] = [
       "gradient",
       "button",
       "hover effect",
-      "uiverse"
     ],
     "complexity": "basic",
     "tone": "light",
@@ -577,7 +558,7 @@ export const UIVERSE_ASSETS: Asset[] = [
   {
     "id": "uv-muhammadhasann-tough-tiger-78",
     "title": "Glassmorphism Button",
-    "description": "Button by @MuhammadHasann on Uiverse.io — glassmorphism, button, shadow.",
+    "description": "Button — glassmorphism, button, shadow.",
     "category": "buttons",
     "libraries": [
       "css"
@@ -588,7 +569,6 @@ export const UIVERSE_ASSETS: Asset[] = [
       "blue",
       "button",
       "shadow",
-      "uiverse"
     ],
     "complexity": "intermediate",
     "tone": "light",
@@ -608,7 +588,7 @@ export const UIVERSE_ASSETS: Asset[] = [
   {
     "id": "uv-andibumann-wet-robin-100",
     "title": "Wet Robin Button",
-    "description": "Button by @AndiBumann on Uiverse.io — animation, gradient, button.",
+    "description": "Button — animation, gradient, button.",
     "category": "buttons",
     "libraries": [
       "css"
@@ -617,7 +597,6 @@ export const UIVERSE_ASSETS: Asset[] = [
       "animation",
       "gradient",
       "button",
-      "uiverse"
     ],
     "complexity": "basic",
     "tone": "light",
@@ -637,7 +616,7 @@ export const UIVERSE_ASSETS: Asset[] = [
   {
     "id": "uv-priyanshugupta28-short-horse-44",
     "title": "Bootsrap Button",
-    "description": "Button by @PriyanshuGupta28 on Uiverse.io — button, bootsrap button, button hover effect, 2d button.",
+    "description": "Button — button, bootsrap button, button hover effect, 2d button.",
     "category": "buttons",
     "libraries": [
       "css"
@@ -647,7 +626,6 @@ export const UIVERSE_ASSETS: Asset[] = [
       "bootsrap button",
       "button hover effect",
       "2d button",
-      "uiverse"
     ],
     "complexity": "basic",
     "tone": "light",
@@ -667,7 +645,7 @@ export const UIVERSE_ASSETS: Asset[] = [
   {
     "id": "uv-bocikond-tidy-panda-85",
     "title": "Tooltip Button",
-    "description": "Button by @bociKond on Uiverse.io — tooltip, button, hover, click.",
+    "description": "Button — tooltip, button, hover, click.",
     "category": "buttons",
     "libraries": [
       "css"
@@ -679,7 +657,6 @@ export const UIVERSE_ASSETS: Asset[] = [
       "click",
       "transition",
       "hover effect",
-      "uiverse"
     ],
     "complexity": "intermediate",
     "tone": "light",
@@ -699,7 +676,7 @@ export const UIVERSE_ASSETS: Asset[] = [
   {
     "id": "uv-cssbuttons-io-wonderful-baboon-62",
     "title": "Wonderful Baboon Button",
-    "description": "Button by @cssbuttons-io on Uiverse.io — gradient, button.",
+    "description": "Button — gradient, button.",
     "category": "buttons",
     "libraries": [
       "css"
@@ -707,7 +684,6 @@ export const UIVERSE_ASSETS: Asset[] = [
     "tags": [
       "gradient",
       "button",
-      "uiverse"
     ],
     "complexity": "basic",
     "tone": "light",
@@ -727,7 +703,7 @@ export const UIVERSE_ASSETS: Asset[] = [
   {
     "id": "uv-nlghtm4re-moody-fly-80",
     "title": "Smooth Loader",
-    "description": "Loader by @NlghtM4re on Uiverse.io — loader, smooth, shadow, glow.",
+    "description": "Loader — loader, smooth, shadow, glow.",
     "category": "loaders",
     "libraries": [
       "css"
@@ -739,7 +715,6 @@ export const UIVERSE_ASSETS: Asset[] = [
       "shadow",
       "glow",
       "neon",
-      "uiverse"
     ],
     "complexity": "intermediate",
     "tone": "light",
@@ -759,7 +734,7 @@ export const UIVERSE_ASSETS: Asset[] = [
   {
     "id": "uv-vk-uiux-neat-goat-26",
     "title": "Animation Loader",
-    "description": "Loader by @vk-uiux on Uiverse.io — animation, loading, card, loader.",
+    "description": "Loader — animation, loading, card, loader.",
     "category": "loaders",
     "libraries": [
       "css"
@@ -771,7 +746,6 @@ export const UIVERSE_ASSETS: Asset[] = [
       "loader",
       "placeholder",
       "animated",
-      "uiverse"
     ],
     "complexity": "basic",
     "tone": "light",
@@ -791,7 +765,7 @@ export const UIVERSE_ASSETS: Asset[] = [
   {
     "id": "uv-subaashbala-ugly-lizard-47",
     "title": "Glassmorphism Loader",
-    "description": "Loader by @Subaashbala on Uiverse.io — glassmorphism, animation, loader, circle loader.",
+    "description": "Loader — glassmorphism, animation, loader, circle loader.",
     "category": "loaders",
     "libraries": [
       "css"
@@ -803,7 +777,6 @@ export const UIVERSE_ASSETS: Asset[] = [
       "circle loader",
       "box-shadow",
       "loading animation",
-      "uiverse"
     ],
     "complexity": "intermediate",
     "tone": "light",
@@ -823,7 +796,7 @@ export const UIVERSE_ASSETS: Asset[] = [
   {
     "id": "uv-gharsh11032000-tall-impala-21",
     "title": "Rolling Loader",
-    "description": "Loader by @gharsh11032000 on Uiverse.io — animation, loader, rolling.",
+    "description": "Loader — animation, loader, rolling.",
     "category": "loaders",
     "libraries": [
       "css"
@@ -832,7 +805,6 @@ export const UIVERSE_ASSETS: Asset[] = [
       "animation",
       "loader",
       "rolling",
-      "uiverse"
     ],
     "complexity": "basic",
     "tone": "light",
@@ -852,7 +824,7 @@ export const UIVERSE_ASSETS: Asset[] = [
   {
     "id": "uv-dhruv465-stupid-starfish-42",
     "title": "Animated Loader",
-    "description": "Loader by @dhruv465 on Uiverse.io — loader, animated, circle loader.",
+    "description": "Loader — loader, animated, circle loader.",
     "category": "loaders",
     "libraries": [
       "css"
@@ -861,7 +833,6 @@ export const UIVERSE_ASSETS: Asset[] = [
       "loader",
       "animated",
       "circle loader",
-      "uiverse"
     ],
     "complexity": "basic",
     "tone": "light",
@@ -881,7 +852,7 @@ export const UIVERSE_ASSETS: Asset[] = [
   {
     "id": "uv-uncannypotato69-shaggy-emu-40",
     "title": "Loading Loader",
-    "description": "Loader by @Uncannypotato69 on Uiverse.io — animation, loading, loader, text.",
+    "description": "Loader — animation, loading, loader, text.",
     "category": "loaders",
     "libraries": [
       "css"
@@ -893,7 +864,6 @@ export const UIVERSE_ASSETS: Asset[] = [
       "loader",
       "text",
       "css",
-      "uiverse"
     ],
     "complexity": "intermediate",
     "tone": "light",
@@ -913,7 +883,7 @@ export const UIVERSE_ASSETS: Asset[] = [
   {
     "id": "uv-jeremyssocial-great-horse-35",
     "title": "3d Loader",
-    "description": "Loader by @jeremyssocial on Uiverse.io — 3d, hover, loader, cube.",
+    "description": "Loader — 3d, hover, loader, cube.",
     "category": "loaders",
     "libraries": [
       "css"
@@ -925,7 +895,6 @@ export const UIVERSE_ASSETS: Asset[] = [
       "cube",
       "click",
       "hover effect",
-      "uiverse"
     ],
     "complexity": "intermediate",
     "tone": "light",
@@ -945,7 +914,7 @@ export const UIVERSE_ASSETS: Asset[] = [
   {
     "id": "uv-andrew-demchenk0-new-kangaroo-60",
     "title": "Cube Loader",
-    "description": "Loader by @andrew-demchenk0 on Uiverse.io — 3d, loader, cube.",
+    "description": "Loader — 3d, loader, cube.",
     "category": "loaders",
     "libraries": [
       "css"
@@ -954,7 +923,6 @@ export const UIVERSE_ASSETS: Asset[] = [
       "3d",
       "loader",
       "cube",
-      "uiverse"
     ],
     "complexity": "intermediate",
     "tone": "light",
@@ -974,7 +942,7 @@ export const UIVERSE_ASSETS: Asset[] = [
   {
     "id": "uv-blagadavid74257-warm-walrus-89",
     "title": "Tooltip Loader",
-    "description": "Loader by @BlagaDavid74257 on Uiverse.io — tooltip, icon, animation, loader.",
+    "description": "Loader — tooltip, icon, animation, loader.",
     "category": "loaders",
     "libraries": [
       "css"
@@ -986,7 +954,6 @@ export const UIVERSE_ASSETS: Asset[] = [
       "loader",
       "dark",
       "theme",
-      "uiverse"
     ],
     "complexity": "basic",
     "tone": "light",
@@ -1006,7 +973,7 @@ export const UIVERSE_ASSETS: Asset[] = [
   {
     "id": "uv-sabbircoder07-fresh-tiger-75",
     "title": "Css3 Loader",
-    "description": "Loader by @sabbircoder07 on Uiverse.io — loader, animated, css3.",
+    "description": "Loader — loader, animated, css3.",
     "category": "loaders",
     "libraries": [
       "css"
@@ -1015,7 +982,6 @@ export const UIVERSE_ASSETS: Asset[] = [
       "loader",
       "animated",
       "css3",
-      "uiverse"
     ],
     "complexity": "basic",
     "tone": "light",
@@ -1035,7 +1001,7 @@ export const UIVERSE_ASSETS: Asset[] = [
   {
     "id": "uv-csozidev-weak-bulldog-22",
     "title": "Weak Bulldog Loader",
-    "description": "Loader by @csozidev on Uiverse.io — 3d, loader.",
+    "description": "Loader — 3d, loader.",
     "category": "loaders",
     "libraries": [
       "css"
@@ -1044,7 +1010,6 @@ export const UIVERSE_ASSETS: Asset[] = [
       "simple",
       "3d",
       "loader",
-      "uiverse"
     ],
     "complexity": "advanced",
     "tone": "light",
@@ -1064,7 +1029,7 @@ export const UIVERSE_ASSETS: Asset[] = [
   {
     "id": "uv-vikramsinghnegi-smooth-fox-31",
     "title": "Refresh Loading Loader",
-    "description": "Loader by @vikramsinghnegi on Uiverse.io — animation, loader, refresh loading.",
+    "description": "Loader — animation, loader, refresh loading.",
     "category": "loaders",
     "libraries": [
       "css"
@@ -1073,7 +1038,6 @@ export const UIVERSE_ASSETS: Asset[] = [
       "animation",
       "loader",
       "refresh loading",
-      "uiverse"
     ],
     "complexity": "intermediate",
     "tone": "light",
@@ -1093,7 +1057,7 @@ export const UIVERSE_ASSETS: Asset[] = [
   {
     "id": "uv-gagan-gv-nervous-wasp-20",
     "title": "Glow Loader",
-    "description": "Loader by @gagan-gv on Uiverse.io — loading, loader, glow.",
+    "description": "Loader — loading, loader, glow.",
     "category": "loaders",
     "libraries": [
       "css"
@@ -1102,7 +1066,6 @@ export const UIVERSE_ASSETS: Asset[] = [
       "loading",
       "loader",
       "glow",
-      "uiverse"
     ],
     "complexity": "intermediate",
     "tone": "light",
@@ -1122,7 +1085,7 @@ export const UIVERSE_ASSETS: Asset[] = [
   {
     "id": "uv-rajan1092-helpless-newt-19",
     "title": "Dotted Loader",
-    "description": "Loader by @Rajan1092 on Uiverse.io — 3d loader, dotted loader.",
+    "description": "Loader — 3d loader, dotted loader.",
     "category": "loaders",
     "libraries": [
       "css"
@@ -1130,7 +1093,6 @@ export const UIVERSE_ASSETS: Asset[] = [
     "tags": [
       "3d loader",
       "dotted loader",
-      "uiverse"
     ],
     "complexity": "basic",
     "tone": "light",
@@ -1150,7 +1112,7 @@ export const UIVERSE_ASSETS: Asset[] = [
   {
     "id": "uv-pravusagar-tidy-zebra-16",
     "title": "Neon Loader",
-    "description": "Loader by @pravusagar on Uiverse.io — loader, smooth, neon, game.",
+    "description": "Loader — loader, smooth, neon, game.",
     "category": "loaders",
     "libraries": [
       "css"
@@ -1162,7 +1124,6 @@ export const UIVERSE_ASSETS: Asset[] = [
       "light",
       "neon",
       "game",
-      "uiverse"
     ],
     "complexity": "intermediate",
     "tone": "light",
@@ -1182,7 +1143,7 @@ export const UIVERSE_ASSETS: Asset[] = [
   {
     "id": "uv-abrar-hussain1-lovely-rabbit-61",
     "title": "Spinner Loader",
-    "description": "Loader by @Abrar-Hussain1 on Uiverse.io — animation, loading, loader, spinner.",
+    "description": "Loader — animation, loading, loader, spinner.",
     "category": "loaders",
     "libraries": [
       "css"
@@ -1194,7 +1155,6 @@ export const UIVERSE_ASSETS: Asset[] = [
       "spinner",
       "modern",
       "circle",
-      "uiverse"
     ],
     "complexity": "intermediate",
     "tone": "light",
@@ -1214,7 +1174,7 @@ export const UIVERSE_ASSETS: Asset[] = [
   {
     "id": "uv-temrevil-rude-moth-53",
     "title": "Action Loader",
-    "description": "Loader by @TemRevil on Uiverse.io — action, loading, loader, smooth.",
+    "description": "Loader — action, loading, loader, smooth.",
     "category": "loaders",
     "libraries": [
       "css"
@@ -1226,7 +1186,6 @@ export const UIVERSE_ASSETS: Asset[] = [
       "loader",
       "smooth",
       "code",
-      "uiverse"
     ],
     "complexity": "basic",
     "tone": "light",
@@ -1246,7 +1205,7 @@ export const UIVERSE_ASSETS: Asset[] = [
   {
     "id": "uv-htwarriors108-massive-dodo-50",
     "title": "Rotate Loader",
-    "description": "Loader by @htwarriors108 on Uiverse.io — animation, 3d, loader, cube.",
+    "description": "Loader — animation, 3d, loader, cube.",
     "category": "loaders",
     "libraries": [
       "css"
@@ -1258,7 +1217,6 @@ export const UIVERSE_ASSETS: Asset[] = [
       "cube",
       "rotate",
       "animated",
-      "uiverse"
     ],
     "complexity": "intermediate",
     "tone": "light",
@@ -1278,7 +1236,7 @@ export const UIVERSE_ASSETS: Asset[] = [
   {
     "id": "uv-adilsarfraz02-tough-seahorse-89",
     "title": "Custom Loader",
-    "description": "Loader by @adilsarfraz02 on Uiverse.io — loader, spinner, smooth, custom.",
+    "description": "Loader — loader, spinner, smooth, custom.",
     "category": "loaders",
     "libraries": [
       "css"
@@ -1290,7 +1248,6 @@ export const UIVERSE_ASSETS: Asset[] = [
       "custom",
       "transition",
       "effect loader",
-      "uiverse"
     ],
     "complexity": "basic",
     "tone": "light",
@@ -1310,7 +1267,7 @@ export const UIVERSE_ASSETS: Asset[] = [
   {
     "id": "uv-sourcesketch-shy-walrus-51",
     "title": "Loading Animation Loader",
-    "description": "Loader by @Sourcesketch on Uiverse.io — glassmorphism, loader, loading animation.",
+    "description": "Loader — glassmorphism, loader, loading animation.",
     "category": "loaders",
     "libraries": [
       "css"
@@ -1320,7 +1277,6 @@ export const UIVERSE_ASSETS: Asset[] = [
       "green",
       "loader",
       "loading animation",
-      "uiverse"
     ],
     "complexity": "intermediate",
     "tone": "light",
@@ -1340,7 +1296,7 @@ export const UIVERSE_ASSETS: Asset[] = [
   {
     "id": "uv-carhtube-happy-puma-68",
     "title": "Circle Loader",
-    "description": "Loader by @carhtube on Uiverse.io — animation, loading, loader, circle loader.",
+    "description": "Loader — animation, loading, loader, circle loader.",
     "category": "loaders",
     "libraries": [
       "css"
@@ -1352,7 +1308,6 @@ export const UIVERSE_ASSETS: Asset[] = [
       "circle loader",
       "click animation",
       "effect loader",
-      "uiverse"
     ],
     "complexity": "intermediate",
     "tone": "light",
@@ -1372,7 +1327,7 @@ export const UIVERSE_ASSETS: Asset[] = [
   {
     "id": "uv-mrpumps31232-swift-mule-62",
     "title": "Fun Loader",
-    "description": "Loader by @mrpumps31232 on Uiverse.io — 3d, loader, cube, animated.",
+    "description": "Loader — 3d, loader, cube, animated.",
     "category": "loaders",
     "libraries": [
       "css"
@@ -1384,7 +1339,6 @@ export const UIVERSE_ASSETS: Asset[] = [
       "modern",
       "animated",
       "clean",
-      "uiverse"
     ],
     "complexity": "intermediate",
     "tone": "light",
@@ -1404,7 +1358,7 @@ export const UIVERSE_ASSETS: Asset[] = [
   {
     "id": "uv-0xnihilism-nasty-husky-13",
     "title": "Newsletter Card",
-    "description": "Card by @0xnihilism on Uiverse.io — newsletter, card, box-shadow, hover button.",
+    "description": "Card — newsletter, card, box-shadow, hover button.",
     "category": "cards",
     "libraries": [
       "css"
@@ -1416,7 +1370,6 @@ export const UIVERSE_ASSETS: Asset[] = [
       "box-shadow",
       "hover button",
       "cool card",
-      "uiverse"
     ],
     "complexity": "advanced",
     "tone": "light",
@@ -1436,7 +1389,7 @@ export const UIVERSE_ASSETS: Asset[] = [
   {
     "id": "uv-gharsh11032000-horrible-donkey-50",
     "title": "Gradient Card",
-    "description": "Card by @gharsh11032000 on Uiverse.io — gradient, card, hover effect.",
+    "description": "Card — gradient, card, hover effect.",
     "category": "cards",
     "libraries": [
       "css"
@@ -1446,7 +1399,6 @@ export const UIVERSE_ASSETS: Asset[] = [
       "gradient",
       "card",
       "hover effect",
-      "uiverse"
     ],
     "complexity": "intermediate",
     "tone": "light",
@@ -1466,7 +1418,7 @@ export const UIVERSE_ASSETS: Asset[] = [
   {
     "id": "uv-csozidev-bad-chipmunk-3",
     "title": "Hover Card",
-    "description": "Card by @csozidev on Uiverse.io — card, hover, glow, hover effect.",
+    "description": "Card — card, hover, glow, hover effect.",
     "category": "cards",
     "libraries": [
       "css"
@@ -1478,7 +1430,6 @@ export const UIVERSE_ASSETS: Asset[] = [
       "dark",
       "glow",
       "hover effect",
-      "uiverse"
     ],
     "complexity": "basic",
     "tone": "light",
@@ -1498,7 +1449,7 @@ export const UIVERSE_ASSETS: Asset[] = [
   {
     "id": "uv-dylanharriscameron-tiny-shrimp-95",
     "title": "Pure Css Card",
-    "description": "Card by @dylanharriscameron on Uiverse.io — card, card hover, pure css, parallax.",
+    "description": "Card — card, card hover, pure css, parallax.",
     "category": "cards",
     "libraries": [
       "css"
@@ -1508,7 +1459,6 @@ export const UIVERSE_ASSETS: Asset[] = [
       "card hover",
       "pure css",
       "parallax",
-      "uiverse"
     ],
     "complexity": "intermediate",
     "tone": "light",
@@ -1528,7 +1478,7 @@ export const UIVERSE_ASSETS: Asset[] = [
   {
     "id": "uv-g4b413l-good-crab-75",
     "title": "Glassmorphism Card",
-    "description": "Card by @G4b413l on Uiverse.io — glassmorphism, card, hover.",
+    "description": "Card — glassmorphism, card, hover.",
     "category": "cards",
     "libraries": [
       "css"
@@ -1537,7 +1487,6 @@ export const UIVERSE_ASSETS: Asset[] = [
       "glassmorphism",
       "card",
       "hover",
-      "uiverse"
     ],
     "complexity": "intermediate",
     "tone": "light",
@@ -1557,7 +1506,7 @@ export const UIVERSE_ASSETS: Asset[] = [
   {
     "id": "uv-rodrypaladin-plastic-otter-67",
     "title": "Animation Card",
-    "description": "Card by @Rodrypaladin on Uiverse.io — animation, card, text animation, click animation.",
+    "description": "Card — animation, card, text animation, click animation.",
     "category": "cards",
     "libraries": [
       "css"
@@ -1569,7 +1518,6 @@ export const UIVERSE_ASSETS: Asset[] = [
       "card",
       "text animation",
       "click animation",
-      "uiverse"
     ],
     "complexity": "advanced",
     "tone": "light",
@@ -1589,7 +1537,7 @@ export const UIVERSE_ASSETS: Asset[] = [
   {
     "id": "uv-yaya12085-curvy-otter-58",
     "title": "Loading Card",
-    "description": "Card by @Yaya12085 on Uiverse.io — animation, loading, card, placeholder.",
+    "description": "Card — animation, loading, card, placeholder.",
     "category": "cards",
     "libraries": [
       "css"
@@ -1599,7 +1547,6 @@ export const UIVERSE_ASSETS: Asset[] = [
       "loading",
       "card",
       "placeholder",
-      "uiverse"
     ],
     "complexity": "intermediate",
     "tone": "light",
@@ -1619,7 +1566,7 @@ export const UIVERSE_ASSETS: Asset[] = [
   {
     "id": "uv-javierrocadev-funny-cobra-5",
     "title": "Flip Card",
-    "description": "Card by @Javierrocadev on Uiverse.io — card, hover, flip, game.",
+    "description": "Card — card, hover, flip, game.",
     "category": "cards",
     "libraries": [
       "css"
@@ -1631,7 +1578,6 @@ export const UIVERSE_ASSETS: Asset[] = [
       "game",
       "hover effect",
       "css effect",
-      "uiverse"
     ],
     "complexity": "advanced",
     "tone": "light",
@@ -1651,7 +1597,7 @@ export const UIVERSE_ASSETS: Asset[] = [
   {
     "id": "uv-jaydipprajapati1910-dry-termite-86",
     "title": "Animated Card",
-    "description": "Card by @JaydipPrajapati1910 on Uiverse.io — card, animated.",
+    "description": "Card — card, animated.",
     "category": "cards",
     "libraries": [
       "css"
@@ -1659,7 +1605,6 @@ export const UIVERSE_ASSETS: Asset[] = [
     "tags": [
       "card",
       "animated",
-      "uiverse"
     ],
     "complexity": "advanced",
     "tone": "light",
@@ -1679,7 +1624,7 @@ export const UIVERSE_ASSETS: Asset[] = [
   {
     "id": "uv-spacious74-moody-owl-18",
     "title": "Neumorphism Card",
-    "description": "Card by @Spacious74 on Uiverse.io — neumorphism, animation, 3d, card.",
+    "description": "Card — neumorphism, animation, 3d, card.",
     "category": "cards",
     "libraries": [
       "css"
@@ -1691,7 +1636,6 @@ export const UIVERSE_ASSETS: Asset[] = [
       "card",
       "realistic",
       "social media",
-      "uiverse"
     ],
     "complexity": "intermediate",
     "tone": "light",
@@ -1711,7 +1655,7 @@ export const UIVERSE_ASSETS: Asset[] = [
   {
     "id": "uv-khaledmatalkah-slippery-stingray-30",
     "title": "Slippery Stingray Card",
-    "description": "Card by @KhaledMatalkah on Uiverse.io — card, hover, animated.",
+    "description": "Card — card, hover, animated.",
     "category": "cards",
     "libraries": [
       "css"
@@ -1720,7 +1664,6 @@ export const UIVERSE_ASSETS: Asset[] = [
       "card",
       "hover",
       "animated",
-      "uiverse"
     ],
     "complexity": "intermediate",
     "tone": "light",
@@ -1740,7 +1683,7 @@ export const UIVERSE_ASSETS: Asset[] = [
   {
     "id": "uv-alexruix-new-newt-64",
     "title": "Smooth Card",
-    "description": "Card by @alexruix on Uiverse.io — gradient, card, hover, smooth.",
+    "description": "Card — gradient, card, hover, smooth.",
     "category": "cards",
     "libraries": [
       "css"
@@ -1752,7 +1695,6 @@ export const UIVERSE_ASSETS: Asset[] = [
       "hover",
       "smooth",
       "dark",
-      "uiverse"
     ],
     "complexity": "intermediate",
     "tone": "light",
@@ -1772,7 +1714,7 @@ export const UIVERSE_ASSETS: Asset[] = [
   {
     "id": "uv-jarol20cb-sour-jellyfish-99",
     "title": "Console Card",
-    "description": "Card by @Jarol20cb on Uiverse.io — card, animated, console.",
+    "description": "Card — card, animated, console.",
     "category": "cards",
     "libraries": [
       "css"
@@ -1781,7 +1723,6 @@ export const UIVERSE_ASSETS: Asset[] = [
       "card",
       "animated",
       "console",
-      "uiverse"
     ],
     "complexity": "intermediate",
     "tone": "light",
@@ -1801,7 +1742,7 @@ export const UIVERSE_ASSETS: Asset[] = [
   {
     "id": "uv-ahmedgamal-hub-popular-starfish-56",
     "title": "About Me Card",
-    "description": "Card by @ahmedgamal-hub on Uiverse.io — card, about me, blur filter, animated.",
+    "description": "Card — card, about me, blur filter, animated.",
     "category": "cards",
     "libraries": [
       "css"
@@ -1813,7 +1754,6 @@ export const UIVERSE_ASSETS: Asset[] = [
       "animated",
       "circle loader",
       "border",
-      "uiverse"
     ],
     "complexity": "basic",
     "tone": "light",
@@ -1833,7 +1773,7 @@ export const UIVERSE_ASSETS: Asset[] = [
   {
     "id": "uv-ahmedyasserdev-fat-warthog-51",
     "title": "Fat Warthog Card",
-    "description": "Card by @ahmedyasserdev on Uiverse.io — card, cool card, card hover.",
+    "description": "Card — card, cool card, card hover.",
     "category": "cards",
     "libraries": [
       "css"
@@ -1842,7 +1782,6 @@ export const UIVERSE_ASSETS: Asset[] = [
       "card",
       "cool card",
       "card hover",
-      "uiverse"
     ],
     "complexity": "intermediate",
     "tone": "light",
@@ -1862,7 +1801,7 @@ export const UIVERSE_ASSETS: Asset[] = [
   {
     "id": "uv-killerrp-ordinary-ladybug-100",
     "title": "3d Card",
-    "description": "Card by @KillerRP on Uiverse.io — 3d, clock, animated.",
+    "description": "Card — 3d, clock, animated.",
     "category": "cards",
     "libraries": [
       "css"
@@ -1871,7 +1810,6 @@ export const UIVERSE_ASSETS: Asset[] = [
       "3d",
       "clock",
       "animated",
-      "uiverse"
     ],
     "complexity": "intermediate",
     "tone": "light",
@@ -1891,7 +1829,7 @@ export const UIVERSE_ASSETS: Asset[] = [
   {
     "id": "uv-yaya12085-bright-dolphin-91",
     "title": "3d Toggle",
-    "description": "Toggle by @Yaya12085 on Uiverse.io — 3d, switch.",
+    "description": "Toggle — 3d, switch.",
     "category": "toggles",
     "libraries": [
       "css"
@@ -1899,7 +1837,6 @@ export const UIVERSE_ASSETS: Asset[] = [
     "tags": [
       "3d",
       "switch",
-      "uiverse"
     ],
     "complexity": "intermediate",
     "tone": "light",
@@ -1919,7 +1856,7 @@ export const UIVERSE_ASSETS: Asset[] = [
   {
     "id": "uv-vk-uiux-lucky-owl-16",
     "title": "Animation Toggle",
-    "description": "Toggle by @vk-uiux on Uiverse.io — animation, switch, hamburger, toggle.",
+    "description": "Toggle — animation, switch, hamburger, toggle.",
     "category": "toggles",
     "libraries": [
       "css"
@@ -1931,7 +1868,6 @@ export const UIVERSE_ASSETS: Asset[] = [
       "toggle",
       "css",
       "click effect",
-      "uiverse"
     ],
     "complexity": "intermediate",
     "tone": "light",
@@ -1951,7 +1887,7 @@ export const UIVERSE_ASSETS: Asset[] = [
   {
     "id": "uv-amit-dasit-average-robin-42",
     "title": "Switch Toggle",
-    "description": "Toggle by @AmIt-DasIT on Uiverse.io — switch, animated.",
+    "description": "Toggle — switch, animated.",
     "category": "toggles",
     "libraries": [
       "css"
@@ -1959,7 +1895,6 @@ export const UIVERSE_ASSETS: Asset[] = [
     "tags": [
       "switch",
       "animated",
-      "uiverse"
     ],
     "complexity": "intermediate",
     "tone": "light",
@@ -1979,7 +1914,7 @@ export const UIVERSE_ASSETS: Asset[] = [
   {
     "id": "uv-forzdz-kind-mule-56",
     "title": "Starrating Toggle",
-    "description": "Toggle by @ForzDz on Uiverse.io — switch, starrating, 3d cool effect.",
+    "description": "Toggle — switch, starrating, 3d cool effect.",
     "category": "toggles",
     "libraries": [
       "css"
@@ -1988,7 +1923,6 @@ export const UIVERSE_ASSETS: Asset[] = [
       "switch",
       "starrating",
       "3d cool effect",
-      "uiverse"
     ],
     "complexity": "basic",
     "tone": "light",
@@ -2008,7 +1942,7 @@ export const UIVERSE_ASSETS: Asset[] = [
   {
     "id": "uv-metablue2000-curly-firefox-62",
     "title": "Minimalist Toggle",
-    "description": "Toggle by @MetaBlue2000 on Uiverse.io — minimalist, switch, click animation.",
+    "description": "Toggle — minimalist, switch, click animation.",
     "category": "toggles",
     "libraries": [
       "css"
@@ -2019,7 +1953,6 @@ export const UIVERSE_ASSETS: Asset[] = [
       "minimalist",
       "switch",
       "click animation",
-      "uiverse"
     ],
     "complexity": "intermediate",
     "tone": "light",
@@ -2039,7 +1972,7 @@ export const UIVERSE_ASSETS: Asset[] = [
   {
     "id": "uv-elijahgummer-lovely-hound-41",
     "title": "Transition Toggle",
-    "description": "Toggle by @elijahgummer on Uiverse.io — animation, switch, transition, click effect.",
+    "description": "Toggle — animation, switch, transition, click effect.",
     "category": "toggles",
     "libraries": [
       "css"
@@ -2051,7 +1984,6 @@ export const UIVERSE_ASSETS: Asset[] = [
       "switch",
       "transition",
       "click effect",
-      "uiverse"
     ],
     "complexity": "intermediate",
     "tone": "light",
@@ -2071,7 +2003,7 @@ export const UIVERSE_ASSETS: Asset[] = [
   {
     "id": "uv-na3ar-17-fast-fireant-25",
     "title": "Action Toggle",
-    "description": "Toggle by @Na3ar-17 on Uiverse.io — animation, action, switch, click.",
+    "description": "Toggle — animation, action, switch, click.",
     "category": "toggles",
     "libraries": [
       "css"
@@ -2083,7 +2015,6 @@ export const UIVERSE_ASSETS: Asset[] = [
       "switch",
       "dark",
       "modern",
-      "uiverse"
     ],
     "complexity": "intermediate",
     "tone": "light",
@@ -2103,7 +2034,7 @@ export const UIVERSE_ASSETS: Asset[] = [
   {
     "id": "uv-ozgeozkaraa01-evil-cheetah-7",
     "title": "3d Switch Toggle",
-    "description": "Toggle by @ozgeozkaraa01 on Uiverse.io — switch, toggle switch, 3d switch.",
+    "description": "Toggle — switch, toggle switch, 3d switch.",
     "category": "toggles",
     "libraries": [
       "css"
@@ -2112,7 +2043,6 @@ export const UIVERSE_ASSETS: Asset[] = [
       "switch",
       "toggle switch",
       "3d switch",
-      "uiverse"
     ],
     "complexity": "basic",
     "tone": "light",
@@ -2132,7 +2062,7 @@ export const UIVERSE_ASSETS: Asset[] = [
   {
     "id": "uv-burgisimon-breezy-donkey-2",
     "title": "Animated Toggle",
-    "description": "Toggle by @BurgiSimon on Uiverse.io — animation, switch, animated, toggle switch.",
+    "description": "Toggle — animation, switch, animated, toggle switch.",
     "category": "toggles",
     "libraries": [
       "css"
@@ -2144,7 +2074,6 @@ export const UIVERSE_ASSETS: Asset[] = [
       "green",
       "switch",
       "animated",
-      "uiverse"
     ],
     "complexity": "advanced",
     "tone": "light",
@@ -2164,7 +2093,7 @@ export const UIVERSE_ASSETS: Asset[] = [
   {
     "id": "uv-vikramsinghnegi-evil-lion-15",
     "title": "Neumorphism Toggle",
-    "description": "Toggle by @vikramsinghnegi on Uiverse.io — neumorphism, glassmorphism.",
+    "description": "Toggle — neumorphism, glassmorphism.",
     "category": "toggles",
     "libraries": [
       "css"
@@ -2173,7 +2102,6 @@ export const UIVERSE_ASSETS: Asset[] = [
       "simple",
       "neumorphism",
       "glassmorphism",
-      "uiverse"
     ],
     "complexity": "advanced",
     "tone": "light",
@@ -2193,7 +2121,7 @@ export const UIVERSE_ASSETS: Asset[] = [
   {
     "id": "uv-subaashbala-unlucky-turkey-88",
     "title": "Skeuomorphism Toggle",
-    "description": "Toggle by @Subaashbala on Uiverse.io — skeuomorphism, minimalist, switch, click animation.",
+    "description": "Toggle — skeuomorphism, minimalist, switch, click animation.",
     "category": "toggles",
     "libraries": [
       "css"
@@ -2203,7 +2131,6 @@ export const UIVERSE_ASSETS: Asset[] = [
       "minimalist",
       "switch",
       "click animation",
-      "uiverse"
     ],
     "complexity": "intermediate",
     "tone": "light",
@@ -2223,7 +2150,7 @@ export const UIVERSE_ASSETS: Asset[] = [
   {
     "id": "uv-saiyed-tanvir-pretty-moose-9",
     "title": "Lever Toggle",
-    "description": "Toggle by @Saiyed-Tanvir on Uiverse.io — switch, animated, lever.",
+    "description": "Toggle — switch, animated, lever.",
     "category": "toggles",
     "libraries": [
       "css"
@@ -2232,7 +2159,6 @@ export const UIVERSE_ASSETS: Asset[] = [
       "switch",
       "animated",
       "lever",
-      "uiverse"
     ],
     "complexity": "basic",
     "tone": "light",
@@ -2252,7 +2178,7 @@ export const UIVERSE_ASSETS: Asset[] = [
   {
     "id": "uv-souravbandyopadhyay-empty-grasshopper-29",
     "title": "Button Toggle",
-    "description": "Toggle by @SouravBandyopadhyay on Uiverse.io — 3d, action, button, switch.",
+    "description": "Toggle — 3d, action, button, switch.",
     "category": "toggles",
     "libraries": [
       "css"
@@ -2264,7 +2190,6 @@ export const UIVERSE_ASSETS: Asset[] = [
       "red",
       "button",
       "switch",
-      "uiverse"
     ],
     "complexity": "advanced",
     "tone": "light",
@@ -2284,7 +2209,7 @@ export const UIVERSE_ASSETS: Asset[] = [
   {
     "id": "uv-jaydipprajapati1910-brave-rattlesnake-29",
     "title": "Theme Switch Toggle",
-    "description": "Toggle by @JaydipPrajapati1910 on Uiverse.io — animation, action, switch, theme-switch.",
+    "description": "Toggle — animation, action, switch, theme-switch.",
     "category": "toggles",
     "libraries": [
       "css"
@@ -2296,7 +2221,6 @@ export const UIVERSE_ASSETS: Asset[] = [
       "theme-switch",
       "yes",
       "no",
-      "uiverse"
     ],
     "complexity": "advanced",
     "tone": "light",
@@ -2316,7 +2240,7 @@ export const UIVERSE_ASSETS: Asset[] = [
   {
     "id": "uv-priyanshugupta28-ordinary-ape-65",
     "title": "Light Switch Toggle",
-    "description": "Toggle by @PriyanshuGupta28 on Uiverse.io — switch, light switch, 3d switch, cool switch.",
+    "description": "Toggle — switch, light switch, 3d switch, cool switch.",
     "category": "toggles",
     "libraries": [
       "css"
@@ -2326,7 +2250,6 @@ export const UIVERSE_ASSETS: Asset[] = [
       "light switch",
       "3d switch",
       "cool switch",
-      "uiverse"
     ],
     "complexity": "intermediate",
     "tone": "light",
@@ -2346,7 +2269,7 @@ export const UIVERSE_ASSETS: Asset[] = [
   {
     "id": "uv-andrew-demchenk0-empty-penguin-100",
     "title": "On Toggle",
-    "description": "Toggle by @andrew-demchenk0 on Uiverse.io — switch, on, off, toggle.",
+    "description": "Toggle — switch, on, off, toggle.",
     "category": "toggles",
     "libraries": [
       "css"
@@ -2358,7 +2281,6 @@ export const UIVERSE_ASSETS: Asset[] = [
       "off",
       "toggle",
       "text animation",
-      "uiverse"
     ],
     "complexity": "intermediate",
     "tone": "light",
@@ -2378,7 +2300,7 @@ export const UIVERSE_ASSETS: Asset[] = [
   {
     "id": "uv-bedirhan-arslan-stale-fly-98",
     "title": "Form Input",
-    "description": "Input by @bedirhan-arslan on Uiverse.io — form, hover, active, input.",
+    "description": "Input — form, hover, active, input.",
     "category": "inputs",
     "libraries": [
       "css"
@@ -2390,7 +2312,6 @@ export const UIVERSE_ASSETS: Asset[] = [
       "active",
       "input",
       "rounded",
-      "uiverse"
     ],
     "complexity": "basic",
     "tone": "light",
@@ -2410,7 +2331,7 @@ export const UIVERSE_ASSETS: Asset[] = [
   {
     "id": "uv-techbyelijah-fluffy-dolphin-33",
     "title": "Animated Input",
-    "description": "Input by @TechByElijah on Uiverse.io — input, animated.",
+    "description": "Input — input, animated.",
     "category": "inputs",
     "libraries": [
       "css"
@@ -2419,7 +2340,6 @@ export const UIVERSE_ASSETS: Asset[] = [
       "simple",
       "input",
       "animated",
-      "uiverse"
     ],
     "complexity": "intermediate",
     "tone": "light",
@@ -2439,7 +2359,7 @@ export const UIVERSE_ASSETS: Asset[] = [
   {
     "id": "uv-santhoshsj-dev-mean-wolverine-8",
     "title": "Material Design Input",
-    "description": "Input by @SanthoshSJ-Dev on Uiverse.io — material design, input, animated, line.",
+    "description": "Input — material design, input, animated, line.",
     "category": "inputs",
     "libraries": [
       "css"
@@ -2451,7 +2371,6 @@ export const UIVERSE_ASSETS: Asset[] = [
       "animated",
       "line",
       "text",
-      "uiverse"
     ],
     "complexity": "basic",
     "tone": "light",
@@ -2471,7 +2390,7 @@ export const UIVERSE_ASSETS: Asset[] = [
   {
     "id": "uv-liyaxu123-warm-eel-62",
     "title": "Warm Eel Input",
-    "description": "Input by @liyaxu123 on Uiverse.io — input, animated.",
+    "description": "Input — input, animated.",
     "category": "inputs",
     "libraries": [
       "css"
@@ -2479,7 +2398,6 @@ export const UIVERSE_ASSETS: Asset[] = [
     "tags": [
       "input",
       "animated",
-      "uiverse"
     ],
     "complexity": "basic",
     "tone": "light",
@@ -2499,7 +2417,7 @@ export const UIVERSE_ASSETS: Asset[] = [
   {
     "id": "uv-elijahgummer-nice-otter-15",
     "title": "Animation Input",
-    "description": "Input by @elijahgummer on Uiverse.io — animation, input, glow, transition.",
+    "description": "Input — animation, input, glow, transition.",
     "category": "inputs",
     "libraries": [
       "css"
@@ -2511,7 +2429,6 @@ export const UIVERSE_ASSETS: Asset[] = [
       "glow",
       "transition",
       "hover effect",
-      "uiverse"
     ],
     "complexity": "basic",
     "tone": "light",
@@ -2531,7 +2448,7 @@ export const UIVERSE_ASSETS: Asset[] = [
   {
     "id": "uv-rodrypaladin-bitter-cobra-27",
     "title": "Colorful Input",
-    "description": "Input by @Rodrypaladin on Uiverse.io — animation, form, input, animated.",
+    "description": "Input — animation, form, input, animated.",
     "category": "inputs",
     "libraries": [
       "css"
@@ -2542,7 +2459,6 @@ export const UIVERSE_ASSETS: Asset[] = [
       "input",
       "animated",
       "colorful",
-      "uiverse"
     ],
     "complexity": "intermediate",
     "tone": "light",
@@ -2562,7 +2478,7 @@ export const UIVERSE_ASSETS: Asset[] = [
   {
     "id": "uv-jaydipprajapati1910-black-impala-70",
     "title": "Effect Input",
-    "description": "Input by @JaydipPrajapati1910 on Uiverse.io — animation, input, input effect.",
+    "description": "Input — animation, input, input effect.",
     "category": "inputs",
     "libraries": [
       "css"
@@ -2571,7 +2487,6 @@ export const UIVERSE_ASSETS: Asset[] = [
       "animation",
       "input",
       "input effect",
-      "uiverse"
     ],
     "complexity": "basic",
     "tone": "light",
@@ -2591,7 +2506,7 @@ export const UIVERSE_ASSETS: Asset[] = [
   {
     "id": "uv-mrcool7-white-wombat-51",
     "title": "Flashy Input",
-    "description": "Input by @mRcOol7 on Uiverse.io — flashy, minimalist, gradient, input.",
+    "description": "Input — flashy, minimalist, gradient, input.",
     "category": "inputs",
     "libraries": [
       "css"
@@ -2603,7 +2518,6 @@ export const UIVERSE_ASSETS: Asset[] = [
       "input",
       "search",
       "glow",
-      "uiverse"
     ],
     "complexity": "advanced",
     "tone": "light",
@@ -2623,7 +2537,7 @@ export const UIVERSE_ASSETS: Asset[] = [
   {
     "id": "uv-adamgiebl-hot-cat-14",
     "title": "Gradient Input",
-    "description": "Input by @adamgiebl on Uiverse.io — gradient, input, animated.",
+    "description": "Input — gradient, input, animated.",
     "category": "inputs",
     "libraries": [
       "css"
@@ -2633,7 +2547,6 @@ export const UIVERSE_ASSETS: Asset[] = [
       "input",
       "modern",
       "animated",
-      "uiverse"
     ],
     "complexity": "intermediate",
     "tone": "light",
@@ -2653,7 +2566,7 @@ export const UIVERSE_ASSETS: Asset[] = [
   {
     "id": "uv-amit-dasit-weak-donkey-85",
     "title": "Neumorphism Input",
-    "description": "Input by @AmIt-DasIT on Uiverse.io — neumorphism, skeuomorphism, 3d, input.",
+    "description": "Input — neumorphism, skeuomorphism, 3d, input.",
     "category": "inputs",
     "libraries": [
       "css"
@@ -2663,7 +2576,6 @@ export const UIVERSE_ASSETS: Asset[] = [
       "skeuomorphism",
       "3d",
       "input",
-      "uiverse"
     ],
     "complexity": "intermediate",
     "tone": "light",
@@ -2683,7 +2595,7 @@ export const UIVERSE_ASSETS: Asset[] = [
   {
     "id": "uv-jamaldine-hub-cowardly-jellyfish-52",
     "title": "Active Input",
-    "description": "Input by @jamaldine-hub on Uiverse.io — animation, active, input.",
+    "description": "Input — animation, active, input.",
     "category": "inputs",
     "libraries": [
       "css"
@@ -2695,7 +2607,6 @@ export const UIVERSE_ASSETS: Asset[] = [
       "dark",
       "light",
       "modern",
-      "uiverse"
     ],
     "complexity": "basic",
     "tone": "light",
@@ -2715,7 +2626,7 @@ export const UIVERSE_ASSETS: Asset[] = [
   {
     "id": "uv-alanav29-tough-ape-65",
     "title": "Email Input",
-    "description": "Input by @Alanav29 on Uiverse.io — email, minimalist, input, toggle.",
+    "description": "Input — email, minimalist, input, toggle.",
     "category": "inputs",
     "libraries": [
       "css"
@@ -2727,7 +2638,6 @@ export const UIVERSE_ASSETS: Asset[] = [
       "input",
       "light",
       "toggle",
-      "uiverse"
     ],
     "complexity": "basic",
     "tone": "light",
@@ -2747,7 +2657,7 @@ export const UIVERSE_ASSETS: Asset[] = [
   {
     "id": "uv-bodyhc-plastic-dodo-97",
     "title": "Hover Input",
-    "description": "Input by @Bodyhc on Uiverse.io — hover, hover effect, input effect.",
+    "description": "Input — hover, hover effect, input effect.",
     "category": "inputs",
     "libraries": [
       "css"
@@ -2756,7 +2666,6 @@ export const UIVERSE_ASSETS: Asset[] = [
       "hover",
       "hover effect",
       "input effect",
-      "uiverse"
     ],
     "complexity": "basic",
     "tone": "light",
@@ -2776,7 +2685,7 @@ export const UIVERSE_ASSETS: Asset[] = [
   {
     "id": "uv-vijinv-mean-goose-92",
     "title": "Mean Goose Input",
-    "description": "Input by @VijinV on Uiverse.io — input, animated.",
+    "description": "Input — input, animated.",
     "category": "inputs",
     "libraries": [
       "css"
@@ -2784,7 +2693,6 @@ export const UIVERSE_ASSETS: Asset[] = [
     "tags": [
       "input",
       "animated",
-      "uiverse"
     ],
     "complexity": "intermediate",
     "tone": "light",
@@ -2804,7 +2712,7 @@ export const UIVERSE_ASSETS: Asset[] = [
   {
     "id": "uv-elijahgummer-afraid-walrus-18",
     "title": "Animation Checkbox",
-    "description": "Checkbox by @elijahgummer on Uiverse.io — animation, checkbox, hamburger, arrow.",
+    "description": "Checkbox — animation, checkbox, hamburger, arrow.",
     "category": "checkboxes",
     "libraries": [
       "css"
@@ -2815,7 +2723,6 @@ export const UIVERSE_ASSETS: Asset[] = [
       "checkbox",
       "hamburger",
       "arrow",
-      "uiverse"
     ],
     "complexity": "basic",
     "tone": "light",
@@ -2835,7 +2742,7 @@ export const UIVERSE_ASSETS: Asset[] = [
   {
     "id": "uv-leonkohli-average-impala-100",
     "title": "Icon Checkbox",
-    "description": "Checkbox by @LeonKohli on Uiverse.io — icon, animation, active, checkbox.",
+    "description": "Checkbox — icon, animation, active, checkbox.",
     "category": "checkboxes",
     "libraries": [
       "css"
@@ -2847,7 +2754,6 @@ export const UIVERSE_ASSETS: Asset[] = [
       "checkbox",
       "glow",
       "svg",
-      "uiverse"
     ],
     "complexity": "intermediate",
     "tone": "light",
@@ -2867,7 +2773,7 @@ export const UIVERSE_ASSETS: Asset[] = [
   {
     "id": "uv-jack17432-shaggy-earwig-15",
     "title": "Glassmorphism Checkbox",
-    "description": "Checkbox by @Jack17432 on Uiverse.io — glassmorphism, checkbox, hamburger, shadow.",
+    "description": "Checkbox — glassmorphism, checkbox, hamburger, shadow.",
     "category": "checkboxes",
     "libraries": [
       "css"
@@ -2877,7 +2783,6 @@ export const UIVERSE_ASSETS: Asset[] = [
       "checkbox",
       "hamburger",
       "shadow",
-      "uiverse"
     ],
     "complexity": "intermediate",
     "tone": "light",
@@ -2897,7 +2802,7 @@ export const UIVERSE_ASSETS: Asset[] = [
   {
     "id": "uv-techbyelijah-stale-treefrog-11",
     "title": "Pulse Checkbox",
-    "description": "Checkbox by @TechByElijah on Uiverse.io — glassmorphism, checkbox, pulse.",
+    "description": "Checkbox — glassmorphism, checkbox, pulse.",
     "category": "checkboxes",
     "libraries": [
       "css"
@@ -2907,7 +2812,6 @@ export const UIVERSE_ASSETS: Asset[] = [
       "blue",
       "checkbox",
       "pulse",
-      "uiverse"
     ],
     "complexity": "intermediate",
     "tone": "light",
@@ -2927,7 +2831,7 @@ export const UIVERSE_ASSETS: Asset[] = [
   {
     "id": "uv-eddybel-smart-insect-43",
     "title": "Gradient Checkbox",
-    "description": "Checkbox by @EddyBel on Uiverse.io — gradient, checkbox.",
+    "description": "Checkbox — gradient, checkbox.",
     "category": "checkboxes",
     "libraries": [
       "css"
@@ -2935,7 +2839,6 @@ export const UIVERSE_ASSETS: Asset[] = [
     "tags": [
       "gradient",
       "checkbox",
-      "uiverse"
     ],
     "complexity": "intermediate",
     "tone": "light",
@@ -2955,7 +2858,7 @@ export const UIVERSE_ASSETS: Asset[] = [
   {
     "id": "uv-javierbarroso-light-pig-3",
     "title": "Neon Checkbox",
-    "description": "Checkbox by @javierBarroso on Uiverse.io — checkbox, neon.",
+    "description": "Checkbox — checkbox, neon.",
     "category": "checkboxes",
     "libraries": [
       "css"
@@ -2963,7 +2866,6 @@ export const UIVERSE_ASSETS: Asset[] = [
     "tags": [
       "checkbox",
       "neon",
-      "uiverse"
     ],
     "complexity": "intermediate",
     "tone": "light",
@@ -2983,7 +2885,7 @@ export const UIVERSE_ASSETS: Asset[] = [
   {
     "id": "uv-gharsh11032000-nasty-panda-23",
     "title": "Toggle Checkbox",
-    "description": "Checkbox by @gharsh11032000 on Uiverse.io — gradient, checkbox, toggle, click effect.",
+    "description": "Checkbox — gradient, checkbox, toggle, click effect.",
     "category": "checkboxes",
     "libraries": [
       "css"
@@ -2993,7 +2895,6 @@ export const UIVERSE_ASSETS: Asset[] = [
       "checkbox",
       "toggle",
       "click effect",
-      "uiverse"
     ],
     "complexity": "intermediate",
     "tone": "light",
@@ -3013,7 +2914,7 @@ export const UIVERSE_ASSETS: Asset[] = [
   {
     "id": "uv-guilhermeyohan-white-cheetah-13",
     "title": "Circle Checkbox",
-    "description": "Checkbox by @guilhermeyohan on Uiverse.io — animation, checkbox, circle.",
+    "description": "Checkbox — animation, checkbox, circle.",
     "category": "checkboxes",
     "libraries": [
       "css"
@@ -3022,7 +2923,6 @@ export const UIVERSE_ASSETS: Asset[] = [
       "animation",
       "checkbox",
       "circle",
-      "uiverse"
     ],
     "complexity": "intermediate",
     "tone": "light",
@@ -3042,7 +2942,7 @@ export const UIVERSE_ASSETS: Asset[] = [
   {
     "id": "uv-3bdel3ziz-t-angry-grasshopper-50",
     "title": "Material Design Checkbox",
-    "description": "Checkbox by @3bdel3ziz-T on Uiverse.io — material design, animation, checkbox, hamburger.",
+    "description": "Checkbox — material design, animation, checkbox, hamburger.",
     "category": "checkboxes",
     "libraries": [
       "css"
@@ -3054,7 +2954,6 @@ export const UIVERSE_ASSETS: Asset[] = [
       "hamburger",
       "menu",
       "click effect",
-      "uiverse"
     ],
     "complexity": "intermediate",
     "tone": "light",
@@ -3074,7 +2973,7 @@ export const UIVERSE_ASSETS: Asset[] = [
   {
     "id": "uv-custyyyy-slimy-impala-48",
     "title": "Slimy Impala Checkbox",
-    "description": "Checkbox by @Custyyyy on Uiverse.io — animation, checkbox.",
+    "description": "Checkbox — animation, checkbox.",
     "category": "checkboxes",
     "libraries": [
       "css"
@@ -3082,7 +2981,6 @@ export const UIVERSE_ASSETS: Asset[] = [
     "tags": [
       "animation",
       "checkbox",
-      "uiverse"
     ],
     "complexity": "intermediate",
     "tone": "light",
@@ -3102,7 +3000,7 @@ export const UIVERSE_ASSETS: Asset[] = [
   {
     "id": "uv-gagan-gv-unlucky-yak-4",
     "title": "Unlucky Yak Checkbox",
-    "description": "Checkbox by @gagan-gv on Uiverse.io — gradient, checkbox.",
+    "description": "Checkbox — gradient, checkbox.",
     "category": "checkboxes",
     "libraries": [
       "css"
@@ -3110,7 +3008,6 @@ export const UIVERSE_ASSETS: Asset[] = [
     "tags": [
       "gradient",
       "checkbox",
-      "uiverse"
     ],
     "complexity": "intermediate",
     "tone": "light",
@@ -3130,7 +3027,7 @@ export const UIVERSE_ASSETS: Asset[] = [
   {
     "id": "uv-mrpumps31232-heavy-bear-50",
     "title": "Minimalist Checkbox",
-    "description": "Checkbox by @mrpumps31232 on Uiverse.io — minimalist, checkbox, circle, animated.",
+    "description": "Checkbox — minimalist, checkbox, circle, animated.",
     "category": "checkboxes",
     "libraries": [
       "css"
@@ -3142,7 +3039,6 @@ export const UIVERSE_ASSETS: Asset[] = [
       "circle",
       "animated",
       "clean",
-      "uiverse"
     ],
     "complexity": "intermediate",
     "tone": "light",
@@ -3162,7 +3058,7 @@ export const UIVERSE_ASSETS: Asset[] = [
   {
     "id": "uv-jeremyssocial-afraid-sheep-52",
     "title": "Animated Pattern",
-    "description": "Pattern by @jeremyssocial on Uiverse.io — animated, pattern.",
+    "description": "Pattern — animated, pattern.",
     "category": "patterns",
     "libraries": [
       "css"
@@ -3171,7 +3067,6 @@ export const UIVERSE_ASSETS: Asset[] = [
       "dark",
       "animated",
       "pattern",
-      "uiverse"
     ],
     "complexity": "basic",
     "tone": "light",
@@ -3191,7 +3086,7 @@ export const UIVERSE_ASSETS: Asset[] = [
   {
     "id": "uv-elijahgummer-mean-emu-70",
     "title": "Animation Pattern",
-    "description": "Pattern by @elijahgummer on Uiverse.io — animation, gradient, circle, transition.",
+    "description": "Pattern — animation, gradient, circle, transition.",
     "category": "patterns",
     "libraries": [
       "css"
@@ -3203,7 +3098,6 @@ export const UIVERSE_ASSETS: Asset[] = [
       "gradient",
       "circle",
       "transition",
-      "uiverse"
     ],
     "complexity": "basic",
     "tone": "light",
@@ -3223,7 +3117,7 @@ export const UIVERSE_ASSETS: Asset[] = [
   {
     "id": "uv-smookydev-fresh-cow-100",
     "title": "Glassmorphism Pattern",
-    "description": "Pattern by @SmookyDev on Uiverse.io — glassmorphism, animation, transition, css effect.",
+    "description": "Pattern — glassmorphism, animation, transition, css effect.",
     "category": "patterns",
     "libraries": [
       "css"
@@ -3235,7 +3129,6 @@ export const UIVERSE_ASSETS: Asset[] = [
       "css",
       "css effect",
       "pattern",
-      "uiverse"
     ],
     "complexity": "basic",
     "tone": "light",
@@ -3255,7 +3148,7 @@ export const UIVERSE_ASSETS: Asset[] = [
   {
     "id": "uv-escannord-pretty-eagle-45",
     "title": "3d Pattern",
-    "description": "Pattern by @escannord on Uiverse.io — 3d, gradient, pattern.",
+    "description": "Pattern — 3d, gradient, pattern.",
     "category": "patterns",
     "libraries": [
       "css"
@@ -3266,7 +3159,6 @@ export const UIVERSE_ASSETS: Asset[] = [
       "black",
       "gradient",
       "pattern",
-      "uiverse"
     ],
     "complexity": "basic",
     "tone": "light",
@@ -3286,7 +3178,7 @@ export const UIVERSE_ASSETS: Asset[] = [
   {
     "id": "uv-javierrocadev-cowardly-rat-28",
     "title": "Gradient Pattern",
-    "description": "Pattern by @Javierrocadev on Uiverse.io — gradient, pattern, radial, radial-gradient.",
+    "description": "Pattern — gradient, pattern, radial, radial-gradient.",
     "category": "patterns",
     "libraries": [
       "css"
@@ -3298,7 +3190,6 @@ export const UIVERSE_ASSETS: Asset[] = [
       "pattern",
       "radial",
       "radial-gradient",
-      "uiverse"
     ],
     "complexity": "basic",
     "tone": "light",
@@ -3318,7 +3209,7 @@ export const UIVERSE_ASSETS: Asset[] = [
   {
     "id": "uv-badlywrittenstylesheet-fluffy-bear-71",
     "title": "Fluffy Bear Pattern",
-    "description": "Pattern by @BadlyWrittenStylesheet on Uiverse.io — gradient, light&dark, pattern.",
+    "description": "Pattern — gradient, light&dark, pattern.",
     "category": "patterns",
     "libraries": [
       "css"
@@ -3330,7 +3221,6 @@ export const UIVERSE_ASSETS: Asset[] = [
       "light&dark",
       "clean",
       "pattern",
-      "uiverse"
     ],
     "complexity": "basic",
     "tone": "light",
@@ -3350,7 +3240,7 @@ export const UIVERSE_ASSETS: Asset[] = [
   {
     "id": "uv-ayman-ashine-wicked-tiger-22",
     "title": "Creative Pattern",
-    "description": "Pattern by @ayman-ashine on Uiverse.io — 3d, creative, pattern.",
+    "description": "Pattern — 3d, creative, pattern.",
     "category": "patterns",
     "libraries": [
       "css"
@@ -3359,7 +3249,6 @@ export const UIVERSE_ASSETS: Asset[] = [
       "3d",
       "creative",
       "pattern",
-      "uiverse"
     ],
     "complexity": "basic",
     "tone": "light",
@@ -3379,7 +3268,7 @@ export const UIVERSE_ASSETS: Asset[] = [
   {
     "id": "uv-isweat-exe-ancient-bulldog-55",
     "title": "Material Design Pattern",
-    "description": "Pattern by @iSweat-exe on Uiverse.io — material design, glassmorphism, success, pattern.",
+    "description": "Pattern — material design, glassmorphism, success, pattern.",
     "category": "patterns",
     "libraries": [
       "css"
@@ -3391,7 +3280,6 @@ export const UIVERSE_ASSETS: Asset[] = [
       "pattern",
       "background",
       "3d",
-      "uiverse"
     ],
     "complexity": "basic",
     "tone": "light",
@@ -3411,7 +3299,7 @@ export const UIVERSE_ASSETS: Asset[] = [
   {
     "id": "uv-efrain2112-modern-skunk-55",
     "title": "Modern Skunk Pattern",
-    "description": "Pattern by @Efrain2112 on Uiverse.io — pattern.",
+    "description": "Pattern — pattern.",
     "category": "patterns",
     "libraries": [
       "css"
@@ -3420,7 +3308,6 @@ export const UIVERSE_ASSETS: Asset[] = [
       "simple",
       "white",
       "pattern",
-      "uiverse"
     ],
     "complexity": "basic",
     "tone": "light",
@@ -3440,7 +3327,7 @@ export const UIVERSE_ASSETS: Asset[] = [
   {
     "id": "uv-csemszepp-smart-ladybug-43",
     "title": "Honeycomb Pattern",
-    "description": "Pattern by @csemszepp on Uiverse.io — material design, pattern, honeycomb.",
+    "description": "Pattern — material design, pattern, honeycomb.",
     "category": "patterns",
     "libraries": [
       "css"
@@ -3450,7 +3337,6 @@ export const UIVERSE_ASSETS: Asset[] = [
       "material design",
       "pattern",
       "honeycomb",
-      "uiverse"
     ],
     "complexity": "intermediate",
     "tone": "light",
@@ -3470,7 +3356,7 @@ export const UIVERSE_ASSETS: Asset[] = [
   {
     "id": "uv-mobinkakei-loud-parrot-63",
     "title": "Loud Parrot Pattern",
-    "description": "Pattern by @mobinkakei on Uiverse.io — pattern.",
+    "description": "Pattern — pattern.",
     "category": "patterns",
     "libraries": [
       "css"
@@ -3479,7 +3365,6 @@ export const UIVERSE_ASSETS: Asset[] = [
       "simple",
       "white",
       "pattern",
-      "uiverse"
     ],
     "complexity": "intermediate",
     "tone": "light",
@@ -3499,7 +3384,7 @@ export const UIVERSE_ASSETS: Asset[] = [
   {
     "id": "uv-mrcool7-grumpy-lizard-36",
     "title": "Grumpy Lizard Pattern",
-    "description": "Pattern by @mRcOol7 on Uiverse.io — pattern.",
+    "description": "Pattern — pattern.",
     "category": "patterns",
     "libraries": [
       "css"
@@ -3508,7 +3393,6 @@ export const UIVERSE_ASSETS: Asset[] = [
       "pink",
       "black",
       "pattern",
-      "uiverse"
     ],
     "complexity": "basic",
     "tone": "light",
@@ -3528,7 +3412,7 @@ export const UIVERSE_ASSETS: Asset[] = [
   {
     "id": "uv-na3ar-17-fast-turtle-85",
     "title": "Hover Radio Group",
-    "description": "Radio Group by @Na3ar-17 on Uiverse.io — hover, input, radio.",
+    "description": "Radio Group — hover, input, radio.",
     "category": "radios",
     "libraries": [
       "css"
@@ -3539,7 +3423,6 @@ export const UIVERSE_ASSETS: Asset[] = [
       "hover",
       "input",
       "radio",
-      "uiverse"
     ],
     "complexity": "intermediate",
     "tone": "light",
@@ -3559,7 +3442,7 @@ export const UIVERSE_ASSETS: Asset[] = [
   {
     "id": "uv-yaya12085-wonderful-owl-52",
     "title": "Button Radio Group",
-    "description": "Radio Group by @Yaya12085 on Uiverse.io — button, input, radio, select.",
+    "description": "Radio Group — button, input, radio, select.",
     "category": "radios",
     "libraries": [
       "css"
@@ -3571,7 +3454,6 @@ export const UIVERSE_ASSETS: Asset[] = [
       "select",
       "animated",
       "design",
-      "uiverse"
     ],
     "complexity": "intermediate",
     "tone": "light",
@@ -3591,7 +3473,7 @@ export const UIVERSE_ASSETS: Asset[] = [
   {
     "id": "uv-sandeepgopan-fluffy-catfish-36",
     "title": "Input Radio Group",
-    "description": "Radio Group by @sandeepgopan on Uiverse.io — hover, input, theme-switch, radio.",
+    "description": "Radio Group — hover, input, theme-switch, radio.",
     "category": "radios",
     "libraries": [
       "css"
@@ -3602,7 +3484,6 @@ export const UIVERSE_ASSETS: Asset[] = [
       "theme-switch",
       "radio",
       "futuristic-radio-buttons",
-      "uiverse"
     ],
     "complexity": "basic",
     "tone": "light",
@@ -3622,7 +3503,7 @@ export const UIVERSE_ASSETS: Asset[] = [
   {
     "id": "uv-lilarest-soft-baboon-75",
     "title": "Neumorphism Radio Group",
-    "description": "Radio Group by @LilaRest on Uiverse.io — neumorphism, skeuomorphism, glassmorphism, animation.",
+    "description": "Radio Group — neumorphism, skeuomorphism, glassmorphism, animation.",
     "category": "radios",
     "libraries": [
       "css"
@@ -3634,7 +3515,6 @@ export const UIVERSE_ASSETS: Asset[] = [
       "animation",
       "minimalist",
       "ball",
-      "uiverse"
     ],
     "complexity": "intermediate",
     "tone": "light",
@@ -3654,7 +3534,7 @@ export const UIVERSE_ASSETS: Asset[] = [
   {
     "id": "uv-saiyed-tanvir-stale-parrot-18",
     "title": "Glow Radio Group",
-    "description": "Radio Group by @Saiyed-Tanvir on Uiverse.io — hover, glow, radio, animated.",
+    "description": "Radio Group — hover, glow, radio, animated.",
     "category": "radios",
     "libraries": [
       "css"
@@ -3666,7 +3546,6 @@ export const UIVERSE_ASSETS: Asset[] = [
       "animated",
       "futuristic-radio-buttons",
       "custom",
-      "uiverse"
     ],
     "complexity": "intermediate",
     "tone": "light",
@@ -3686,7 +3565,7 @@ export const UIVERSE_ASSETS: Asset[] = [
   {
     "id": "uv-neerajbaniwal-serious-sheep-31",
     "title": "Submit Radio Group",
-    "description": "Radio Group by @neerajbaniwal on Uiverse.io — radio, submit, switcher, 3d button.",
+    "description": "Radio Group — radio, submit, switcher, 3d button.",
     "category": "radios",
     "libraries": [
       "css"
@@ -3698,7 +3577,6 @@ export const UIVERSE_ASSETS: Asset[] = [
       "html",
       "css",
       "3d button",
-      "uiverse"
     ],
     "complexity": "intermediate",
     "tone": "light",
@@ -3718,7 +3596,7 @@ export const UIVERSE_ASSETS: Asset[] = [
   {
     "id": "uv-elijahgummer-soft-firefox-40",
     "title": "Animation Radio Group",
-    "description": "Radio Group by @elijahgummer on Uiverse.io — animation, jelly, shadow, radio.",
+    "description": "Radio Group — animation, jelly, shadow, radio.",
     "category": "radios",
     "libraries": [
       "css"
@@ -3730,7 +3608,6 @@ export const UIVERSE_ASSETS: Asset[] = [
       "shadow",
       "modern",
       "radio",
-      "uiverse"
     ],
     "complexity": "basic",
     "tone": "light",
@@ -3750,7 +3627,7 @@ export const UIVERSE_ASSETS: Asset[] = [
   {
     "id": "uv-ozgeozkaraa01-wet-emu-59",
     "title": "Hover Button Radio Group",
-    "description": "Radio Group by @ozgeozkaraa01 on Uiverse.io — button, radio, hover button.",
+    "description": "Radio Group — button, radio, hover button.",
     "category": "radios",
     "libraries": [
       "css"
@@ -3759,7 +3636,6 @@ export const UIVERSE_ASSETS: Asset[] = [
       "button",
       "radio",
       "hover button",
-      "uiverse"
     ],
     "complexity": "intermediate",
     "tone": "light",
@@ -3779,7 +3655,7 @@ export const UIVERSE_ASSETS: Asset[] = [
   {
     "id": "uv-gharsh11032000-curvy-vampirebat-60",
     "title": "Buttons Radio Group",
-    "description": "Radio Group by @gharsh11032000 on Uiverse.io — radio, radio-buttons, hover effect, click effect.",
+    "description": "Radio Group — radio, radio-buttons, hover effect, click effect.",
     "category": "radios",
     "libraries": [
       "css"
@@ -3789,7 +3665,6 @@ export const UIVERSE_ASSETS: Asset[] = [
       "radio-buttons",
       "hover effect",
       "click effect",
-      "uiverse"
     ],
     "complexity": "intermediate",
     "tone": "light",
@@ -3809,7 +3684,7 @@ export const UIVERSE_ASSETS: Asset[] = [
   {
     "id": "uv-mijailvillegas-friendly-panther-39",
     "title": "Cyberpunk Radio Group",
-    "description": "Radio Group by @MijailVillegas on Uiverse.io — cyberpunk, neon, radio, futuristic.",
+    "description": "Radio Group — cyberpunk, neon, radio, futuristic.",
     "category": "radios",
     "libraries": [
       "css"
@@ -3820,7 +3695,6 @@ export const UIVERSE_ASSETS: Asset[] = [
       "radio",
       "futuristic",
       "animated",
-      "uiverse"
     ],
     "complexity": "advanced",
     "tone": "light",
@@ -3840,7 +3714,7 @@ export const UIVERSE_ASSETS: Asset[] = [
   {
     "id": "uv-mikeandrewdesigner-pink-duck-8",
     "title": "Animation Form",
-    "description": "Form by @MikeAndrewDesigner on Uiverse.io — animation, form, login form, hover button.",
+    "description": "Form — animation, form, login form, hover button.",
     "category": "contact",
     "libraries": [
       "css"
@@ -3850,7 +3724,6 @@ export const UIVERSE_ASSETS: Asset[] = [
       "form",
       "login form",
       "hover button",
-      "uiverse"
     ],
     "complexity": "advanced",
     "tone": "light",
@@ -3870,7 +3743,7 @@ export const UIVERSE_ASSETS: Asset[] = [
   {
     "id": "uv-amit-dasit-stale-snail-53",
     "title": "3d Card Form",
-    "description": "Form by @AmIt-DasIT on Uiverse.io — form, 3d card, 3d cool effect.",
+    "description": "Form — form, 3d card, 3d cool effect.",
     "category": "contact",
     "libraries": [
       "css"
@@ -3879,7 +3752,6 @@ export const UIVERSE_ASSETS: Asset[] = [
       "form",
       "3d card",
       "3d cool effect",
-      "uiverse"
     ],
     "complexity": "advanced",
     "tone": "light",
@@ -3899,7 +3771,7 @@ export const UIVERSE_ASSETS: Asset[] = [
   {
     "id": "uv-codebykay101-warm-pig-33",
     "title": "Contact Form",
-    "description": "Form by @codebykay101 on Uiverse.io — animation, form, contact, hover effect.",
+    "description": "Form — animation, form, contact, hover effect.",
     "category": "contact",
     "libraries": [
       "css"
@@ -3910,7 +3782,6 @@ export const UIVERSE_ASSETS: Asset[] = [
       "contact",
       "hover effect",
       "css effect",
-      "uiverse"
     ],
     "complexity": "advanced",
     "tone": "light",
@@ -3930,7 +3801,7 @@ export const UIVERSE_ASSETS: Asset[] = [
   {
     "id": "uv-3bdel3ziz-t-helpless-wasp-32",
     "title": "Material Design Form",
-    "description": "Form by @3bdel3ziz-T on Uiverse.io — material design, tooltip, form, text animation.",
+    "description": "Form — material design, tooltip, form, text animation.",
     "category": "contact",
     "libraries": [
       "css"
@@ -3942,7 +3813,6 @@ export const UIVERSE_ASSETS: Asset[] = [
       "text animation",
       "click animation",
       "cool card",
-      "uiverse"
     ],
     "complexity": "intermediate",
     "tone": "light",
@@ -3962,7 +3832,7 @@ export const UIVERSE_ASSETS: Asset[] = [
   {
     "id": "uv-aboalsim114-selfish-fly-63",
     "title": "3d Form",
-    "description": "Form by @aboalsim114 on Uiverse.io — 3d, form.",
+    "description": "Form — 3d, form.",
     "category": "contact",
     "libraries": [
       "css"
@@ -3970,7 +3840,6 @@ export const UIVERSE_ASSETS: Asset[] = [
     "tags": [
       "3d",
       "form",
-      "uiverse"
     ],
     "complexity": "intermediate",
     "tone": "light",
@@ -3990,7 +3859,7 @@ export const UIVERSE_ASSETS: Asset[] = [
   {
     "id": "uv-khelvers-hot-panther-2",
     "title": "Login Form",
-    "description": "Form by @KhelVers on Uiverse.io — form, login form, log in, 3d form.",
+    "description": "Form — form, login form, log in, 3d form.",
     "category": "contact",
     "libraries": [
       "css"
@@ -4002,7 +3871,6 @@ export const UIVERSE_ASSETS: Asset[] = [
       "3d form",
       "3d login form",
       "standard",
-      "uiverse"
     ],
     "complexity": "basic",
     "tone": "light",
@@ -4022,7 +3890,7 @@ export const UIVERSE_ASSETS: Asset[] = [
   {
     "id": "uv-vitorbaraodias-splendid-catfish-27",
     "title": "Creative Form",
-    "description": "Form by @VitorBaraoDias on Uiverse.io — animation, form, creative, login.",
+    "description": "Form — animation, form, creative, login.",
     "category": "contact",
     "libraries": [
       "css"
@@ -4034,7 +3902,6 @@ export const UIVERSE_ASSETS: Asset[] = [
       "creative",
       "login",
       "login form",
-      "uiverse"
     ],
     "complexity": "intermediate",
     "tone": "light",
@@ -4054,7 +3921,7 @@ export const UIVERSE_ASSETS: Asset[] = [
   {
     "id": "uv-hoseinparvaresh-selfish-newt-61",
     "title": "Rounded Form",
-    "description": "Form by @HoseinParvaresh on Uiverse.io — form, login, login form, rounded.",
+    "description": "Form — form, login, login form, rounded.",
     "category": "contact",
     "libraries": [
       "css"
@@ -4066,7 +3933,6 @@ export const UIVERSE_ASSETS: Asset[] = [
       "dark",
       "rounded",
       "input",
-      "uiverse"
     ],
     "complexity": "intermediate",
     "tone": "light",
@@ -4086,7 +3952,7 @@ export const UIVERSE_ASSETS: Asset[] = [
   {
     "id": "uv-syedshahzaib7-brave-dog-61",
     "title": "Social Form",
-    "description": "Form by @SyedShahzaib7 on Uiverse.io — login, 3d, social, gradient.",
+    "description": "Form — login, 3d, social, gradient.",
     "category": "contact",
     "libraries": [
       "css"
@@ -4098,7 +3964,6 @@ export const UIVERSE_ASSETS: Asset[] = [
       "social",
       "gradient",
       "form",
-      "uiverse"
     ],
     "complexity": "intermediate",
     "tone": "light",
@@ -4118,7 +3983,7 @@ export const UIVERSE_ASSETS: Asset[] = [
   {
     "id": "uv-gharsh11032000-bitter-cow-59",
     "title": "Gradient Form",
-    "description": "Form by @gharsh11032000 on Uiverse.io — gradient, form.",
+    "description": "Form — gradient, form.",
     "category": "contact",
     "libraries": [
       "css"
@@ -4127,7 +3992,6 @@ export const UIVERSE_ASSETS: Asset[] = [
       "gradient",
       "form",
       "dark",
-      "uiverse"
     ],
     "complexity": "intermediate",
     "tone": "light",
@@ -4147,7 +4011,7 @@ export const UIVERSE_ASSETS: Asset[] = [
   {
     "id": "uv-akshat-patel28-cold-chicken-82",
     "title": "Colorful Tooltip",
-    "description": "Tooltip by @akshat-patel28 on Uiverse.io — tooltip, colorful, color, css effect.",
+    "description": "Tooltip — tooltip, colorful, color, css effect.",
     "category": "tooltips",
     "libraries": [
       "css"
@@ -4159,7 +4023,6 @@ export const UIVERSE_ASSETS: Asset[] = [
       "html",
       "css",
       "css effect",
-      "uiverse"
     ],
     "complexity": "intermediate",
     "tone": "light",
@@ -4179,7 +4042,7 @@ export const UIVERSE_ASSETS: Asset[] = [
   {
     "id": "uv-javierrocadev-rude-seahorse-6",
     "title": "Gradient Tooltip",
-    "description": "Tooltip by @Javierrocadev on Uiverse.io — tooltip, gradient, hover effect, hover button.",
+    "description": "Tooltip — tooltip, gradient, hover effect, hover button.",
     "category": "tooltips",
     "libraries": [
       "css"
@@ -4190,7 +4053,6 @@ export const UIVERSE_ASSETS: Asset[] = [
       "dark",
       "hover effect",
       "hover button",
-      "uiverse"
     ],
     "complexity": "advanced",
     "tone": "light",
@@ -4210,7 +4072,7 @@ export const UIVERSE_ASSETS: Asset[] = [
   {
     "id": "uv-original-lotfy-jolly-turkey-16",
     "title": "Material Design Tooltip",
-    "description": "Tooltip by @original-lotfy on Uiverse.io — material design, glassmorphism, flashy, tooltip.",
+    "description": "Tooltip — material design, glassmorphism, flashy, tooltip.",
     "category": "tooltips",
     "libraries": [
       "css"
@@ -4222,7 +4084,6 @@ export const UIVERSE_ASSETS: Asset[] = [
       "flashy",
       "tooltip",
       "action",
-      "uiverse"
     ],
     "complexity": "basic",
     "tone": "light",
@@ -4242,7 +4103,7 @@ export const UIVERSE_ASSETS: Asset[] = [
   {
     "id": "uv-neerajbaniwal-gentle-turkey-54",
     "title": "Neumorphism Tooltip",
-    "description": "Tooltip by @neerajbaniwal on Uiverse.io — neumorphism, glassmorphism, tooltip, hover.",
+    "description": "Tooltip — neumorphism, glassmorphism, tooltip, hover.",
     "category": "tooltips",
     "libraries": [
       "css"
@@ -4254,7 +4115,6 @@ export const UIVERSE_ASSETS: Asset[] = [
       "tooltip",
       "hover",
       "hover effect",
-      "uiverse"
     ],
     "complexity": "intermediate",
     "tone": "light",
@@ -4274,7 +4134,7 @@ export const UIVERSE_ASSETS: Asset[] = [
   {
     "id": "uv-vnuny-stale-mouse-74",
     "title": "Animation Tooltip",
-    "description": "Tooltip by @vnuny on Uiverse.io — tooltip, animation, animated.",
+    "description": "Tooltip — tooltip, animation, animated.",
     "category": "tooltips",
     "libraries": [
       "css"
@@ -4285,7 +4145,6 @@ export const UIVERSE_ASSETS: Asset[] = [
       "animation",
       "black",
       "animated",
-      "uiverse"
     ],
     "complexity": "intermediate",
     "tone": "light",
@@ -4305,7 +4164,7 @@ export const UIVERSE_ASSETS: Asset[] = [
   {
     "id": "uv-yassin6up-rare-goose-44",
     "title": "Subscription Tooltip",
-    "description": "Tooltip by @Yassin6up on Uiverse.io — material design, tooltip, subscription, 3d.",
+    "description": "Tooltip — material design, tooltip, subscription, 3d.",
     "category": "tooltips",
     "libraries": [
       "css"
@@ -4317,7 +4176,6 @@ export const UIVERSE_ASSETS: Asset[] = [
       "subscription",
       "3d",
       "action",
-      "uiverse"
     ],
     "complexity": "intermediate",
     "tone": "light",
@@ -4337,7 +4195,7 @@ export const UIVERSE_ASSETS: Asset[] = [
   {
     "id": "uv-elijahgummer-brown-moose-94",
     "title": "Minimalist Tooltip",
-    "description": "Tooltip by @elijahgummer on Uiverse.io — tooltip, minimalist, github, transition.",
+    "description": "Tooltip — tooltip, minimalist, github, transition.",
     "category": "tooltips",
     "libraries": [
       "css"
@@ -4349,7 +4207,6 @@ export const UIVERSE_ASSETS: Asset[] = [
       "minimalist",
       "github",
       "clean",
-      "uiverse"
     ],
     "complexity": "intermediate",
     "tone": "light",
@@ -4369,7 +4226,7 @@ export const UIVERSE_ASSETS: Asset[] = [
   {
     "id": "uv-souravbandyopadhyay-rare-sloth-65",
     "title": "Text Animation Tooltip",
-    "description": "Tooltip by @SouravBandyopadhyay on Uiverse.io — tooltip, animation, text animation, animated.",
+    "description": "Tooltip — tooltip, animation, text animation, animated.",
     "category": "tooltips",
     "libraries": [
       "css"
@@ -4381,7 +4238,6 @@ export const UIVERSE_ASSETS: Asset[] = [
       "text animation",
       "animated",
       "transition",
-      "uiverse"
     ],
     "complexity": "intermediate",
     "tone": "light",
@@ -4401,14 +4257,13 @@ export const UIVERSE_ASSETS: Asset[] = [
   {
     "id": "uv-devsleonardo-red-goat-27",
     "title": "Red Goat Notification",
-    "description": "Notification by @devsleonardo on Uiverse.io — notification.",
+    "description": "Notification — notification.",
     "category": "notifications",
     "libraries": [
       "css"
     ],
     "tags": [
       "notification",
-      "uiverse"
     ],
     "complexity": "intermediate",
     "tone": "light",
@@ -4428,14 +4283,13 @@ export const UIVERSE_ASSETS: Asset[] = [
   {
     "id": "uv-tursynbek-gentle-kangaroo-69",
     "title": "Gentle Kangaroo Notification",
-    "description": "Notification by @tursynbek on Uiverse.io — notification.",
+    "description": "Notification — notification.",
     "category": "notifications",
     "libraries": [
       "css"
     ],
     "tags": [
       "notification",
-      "uiverse"
     ],
     "complexity": "intermediate",
     "tone": "light",
@@ -4455,14 +4309,13 @@ export const UIVERSE_ASSETS: Asset[] = [
   {
     "id": "uv-activeicedigital-fuzzy-fly-47",
     "title": "Fuzzy Fly Notification",
-    "description": "Notification by @ActiveIceDigital on Uiverse.io — notification.",
+    "description": "Notification — notification.",
     "category": "notifications",
     "libraries": [
       "css"
     ],
     "tags": [
       "notification",
-      "uiverse"
     ],
     "complexity": "intermediate",
     "tone": "light",
@@ -4482,14 +4335,13 @@ export const UIVERSE_ASSETS: Asset[] = [
   {
     "id": "uv-gianluks90-funny-impala-78",
     "title": "Funny Impala Notification",
-    "description": "Notification by @Gianluks90 on Uiverse.io — notification.",
+    "description": "Notification — notification.",
     "category": "notifications",
     "libraries": [
       "css"
     ],
     "tags": [
       "notification",
-      "uiverse"
     ],
     "complexity": "intermediate",
     "tone": "light",
@@ -4509,14 +4361,13 @@ export const UIVERSE_ASSETS: Asset[] = [
   {
     "id": "uv-mazonthemoon-curvy-mole-83",
     "title": "Curvy Mole Notification",
-    "description": "Notification by @MazontheMoon on Uiverse.io — notification.",
+    "description": "Notification — notification.",
     "category": "notifications",
     "libraries": [
       "css"
     ],
     "tags": [
       "notification",
-      "uiverse"
     ],
     "complexity": "intermediate",
     "tone": "light",
@@ -4536,14 +4387,13 @@ export const UIVERSE_ASSETS: Asset[] = [
   {
     "id": "uv-newbiners-warm-deer-90",
     "title": "Warm Deer Notification",
-    "description": "Notification by @newbiners on Uiverse.io — notification.",
+    "description": "Notification — notification.",
     "category": "notifications",
     "libraries": [
       "css"
     ],
     "tags": [
       "notification",
-      "uiverse"
     ],
     "complexity": "intermediate",
     "tone": "light",
