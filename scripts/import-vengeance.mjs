@@ -240,6 +240,13 @@ const PREVIEW_CSS = [
   "  padding: 8%;",
   "  box-sizing: border-box;",
   "}",
+  // Full-width root so w-full components don’t collapse inside the centring grid.
+  "#root {",
+  "  width: 100%;",
+  "  display: flex;",
+  "  flex-direction: column;",
+  "  align-items: center;",
+  "}",
 ].join("\n");
 
 const assets = [];
